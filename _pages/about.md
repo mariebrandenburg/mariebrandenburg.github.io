@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: PhD student at Freie Universität Berlin  | marie.brandenburg@fu-berlin.de
+description: PhD student at Freie Universität Berlin  | marie.brandenburg@fu-berlin.de | <a href="assets/pdf/CV.pdf">CV</a>
 
 profile:
   align: right
