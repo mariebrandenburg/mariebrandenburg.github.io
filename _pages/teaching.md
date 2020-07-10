@@ -2,10 +2,29 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description:
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+&nbsp;
+### 2020 
+#### Linear Algebra II
+_Teaching Assistant_  
+Freie Universitat Berlin  
+More information can be found on the [KVV](https://mycampus.imp.fu-berlin.de/portal/directtool/c5ccf623-fab4-457d-819a-2cb1bf9624b2/)
 
-Organize your courses by years, topics, or universities, however you like!
+---
+
+### 2019
+#### Panorama der Mathematik
+_Teaching Assistant_  
+Freie Universitat Berlin  
+More information can be found on the [KVV](https://mycampus.imp.fu-berlin.de/portal/directtool/36918426-b9f2-4c5b-92d8-05909f96ad46/)
+
+---
+
+### 2018
+#### Geometrie
+_Teaching Assistant_  
+Freie Universitat Berlin  
+More information can be found on the [KVV](https://mycampus.imp.fu-berlin.de/portal/site/d19d1239-0769-4ba7-816d-54630e1152d2)

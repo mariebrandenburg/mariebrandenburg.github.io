@@ -2,22 +2,21 @@
 layout: about
 title: about
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: PhD student at Freie Universität Berlin  | marie.brandenburg@fu-berlin.de
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Office: R. 117</p>
+    <p>FU Berlin</p>
+    <p>Arnimallee 2</p>
+    <p>14195 Berlin</p>
 
-news: true
+news: false
 social: true
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a PhD student in mathematics at Freie Universität Berlin, working in the research groups [Discrete Geometry](https://www.mi.fu-berlin.de/en/math/groups/discgeom/index.html) and [Discrete Algebraic Geometry](http://www.mi.fu-berlin.de/math/groups/ag-diskret-algebra-geom/index.html) under the guidance of [Rainer Sinn](http://page.mi.fu-berlin.de/rsinn/index_en.html). 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research is in Tropical Geometry, especially combinatorial aspects and applications to Optimazation. Before starting my PhD I earned a master's degree at FU Berlin. My master thesis was concerned with connections of polytopes to competitive equilibria in economics, advised by [Christian Haase](https://www.mi.fu-berlin.de/en/math/groups/ag-diskret-algebra-geom/members/Professoren/christian_haase.html). 

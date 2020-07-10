@@ -5,7 +5,6 @@
 title: Marie-Charlotte Brandenburg
 email: marie.brandenburg@fu-berlin.de
 description: > # this means to ignore newlines until "url:"
-  Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
@@ -45,8 +44,7 @@ publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
 
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: # You can even add a little note about which of these is the best way to reach you.
 
 google_analytics: UA-XXXXXXXXX # out your google-analytics code
 
@@ -116,9 +114,9 @@ plugins:
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
-scholar:
+scholar: 
 
-  last_name: Einstein
+  last_name: Brandenburg
 
   style: apa
   locale: en
