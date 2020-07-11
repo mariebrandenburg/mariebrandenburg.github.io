@@ -13,12 +13,14 @@ With Sophia Elia and Leon Zhang, I have a paper on the arXiv about computing mul
 
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/hexagon.png' | relative_url }}" alt="" title="example image"/>
+	<div class="col-sm mt mt-md">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/hexagon.png' | relative_url }}" alt="" title="Fundamental Polytope"/>
+         </div>
+    <div class="col-sm mt mt-md">
+        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/fundamental_polytope.jpg' | relative_url }}" alt="" title="Hexagon"/>
     </div>
-    <div class="col-sm mt-3 mt-md-3">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/fundamental_polytope.png' | relative_url }}" alt="" title="example image"/>
-    </div>
+
+   
 </div>
 <div class="caption">
     

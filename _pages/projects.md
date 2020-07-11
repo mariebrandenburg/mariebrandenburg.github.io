@@ -1,4 +1,5 @@
 ---
+order: 1
 layout: page
 title: projects & code
 permalink: /projects/

@@ -1,4 +1,5 @@
 ---
+order: 2
 layout: page
 permalink: /research/
 title: research

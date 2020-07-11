@@ -28,7 +28,25 @@
   }
 }
 
-// TODO: redefine content layout.
+code {
+  color: $text-color;
+}
+
+a.abstract {
+  color: $theme-color !important;
+}
+
+body {
+  text-align: justify;
+}
+
+.address {
+  text-align: center;
+}
+
+.profile img {
+  margin-bottom: 1em;
+}
 
 
 /******************************************************************************

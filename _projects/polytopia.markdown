@@ -2,15 +2,16 @@
 layout: page
 title: Polytopia
 description: A math communication and citizen art project.
-img: /assets/img/polytopia_eckigruen.png
+img: /assets/img/polytopia_eckigruen.jpg
 importance: 2
 github: https://github.com/mariebrandenburg/polytopia
+facebook: polytopia.eu
 ---
 
 
-I was honoured to be part of [polytopia.eu](polytopia.eu), a math communication project to make polytopes accessible to a general audience. This project is associated to Collaborative Research Center [Discretization in Geometry and Dynamics](https://www.discretization.de/projects/CaP/), lead by [Anna Hartkopf](https://www.mi.fu-berlin.de/math/groups/discgeom/members/hartkopf.html). 
+[Polytopia](polytopia.eu) is a math communication project that makes polytopes accessible to a general audience. This project is associated to the Collaborative Research Center [Discretization in Geometry and Dynamics](https://www.discretization.de/projects/CaP/), lead by [Anna Hartkopf](https://www.mi.fu-berlin.de/math/groups/discgeom/members/hartkopf.html). 
 
-In polytopia, everyone can adopt a 3-dimensional polytope which is accompanied by a crafting sheet, with which it can be brought to life in the real world. On the website, the polytope is shown using `ThreeJS`, in which the user can customize the adopted polytope by coloring the faces. There is a also VR version using `Framework`. 
+On the website, you can adopt a 3-dimensional polytope and customize it by coloring its faces. It is accompanied by a crafting sheet and files for 3d-printing, with which it can be brought to life in the real world. Using a VR viewer such as a `Google Cardboard`, you can investigate all of the polytopes on the website in virtual reality. 
 Additionally, there is teaching material for middle and high school classes, as well as a mini-game, in which one can find Hamiltonial cycles on the 1-skeleton of the polytope.
 
 The implementation of the `ThreeJS`-viewer that is used to display the polytopes can be found [in this repository](https://github.com/mariebrandenburg/polytopia). It also contains the implementation of the VR viewer and the mini-game for finding Hamiltonian cycles.
@@ -19,10 +20,14 @@ The implementation of the `ThreeJS`-viewer that is used to display the polytopes
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/polytopia_viewer.png' | relative_url }}" alt="" title="example image"/>
+    	<a href="https://www.polytopia.eu/en/detailansicht?id=800009">
+        	<img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/polytopia_viewer.jpg' | relative_url }}" alt="" title="Polytopia Viewer"/>
+        </a>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/polytopia_hamilton.png' | relative_url }}" alt="" title="example image"/>
+    	<a href="https://www.polytopia.eu/en/hamilton.php?id=800009">
+        	<img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/polytopia_hamilton.jpg' | relative_url }}" alt="" title="Polytopia Hamiltonian Cycles"/>
+    	</a>
     </div>
 </div>
 <div class="caption">
@@ -30,7 +35,9 @@ The implementation of the `ThreeJS`-viewer that is used to display the polytopes
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        <img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/polytopia_vr.jpeg' | relative_url }}" alt="" title="example image"/>
+    	<a href="https://www.polytopia.eu/viewer/VR_inversecamera?id=800009">
+        	<img class="img-fluid rounded z-depth-1" src="{{ '/assets/img/polytopia_vr.jpeg' | relative_url }}" alt="" title="Polytopia VR"/>
+    	</a>
     </div>
 </div>
 <div class="caption">
