@@ -9,10 +9,10 @@ facebook: polytopia.eu
 ---
 
 
-[Polytopia](polytopia.eu) is a math communication project that makes polytopes accessible to a general audience. This project is associated to the Collaborative Research Center [Discretization in Geometry and Dynamics](https://www.discretization.de/projects/CaP/), lead by [Anna Hartkopf](https://www.mi.fu-berlin.de/math/groups/discgeom/members/hartkopf.html). 
+[Polytopia](https://www.polytopia.eu) is a math communication project that makes polytopes accessible to a general audience. This project is associated to the Collaborative Research Center [Discretization in Geometry and Dynamics](https://www.discretization.de/projects/CaP/) and was lead by [Anna Hartkopf](https://www.mi.fu-berlin.de/math/groups/discgeom/members/hartkopf.html). 
 
-On the website, you can adopt a 3-dimensional polytope and customize it by coloring its faces. It is accompanied by a crafting sheet and files for 3d-printing, with which it can be brought to life in the real world. Using a VR viewer such as a `Google Cardboard`, you can investigate all of the polytopes on the website in virtual reality. 
-Additionally, there is teaching material for middle and high school classes, as well as a mini-game, in which one can find Hamiltonial cycles on the 1-skeleton of the polytope.
+On the website one can adopt a 3-dimensional polytope, give it a name and customize it by coloring its faces. It is accompanied by a crafting sheet and files for 3D-printing, with which it can be brought to life in the real world. Using a VR viewer such as a `Google Cardboard`, all polytopes can be investigated on the website in virtual reality. 
+To explore the world of polyhedra even further, there is teaching material for middle and high school classes, as well as a mini-game, in which one can find Hamiltonian cycles on the 1-skeleton of the polytopes.
 
 The implementation of the `ThreeJS`-viewer that is used to display the polytopes can be found [in this repository](https://github.com/mariebrandenburg/polytopia). It also contains the implementation of the VR viewer and the mini-game for finding Hamiltonian cycles.
 
