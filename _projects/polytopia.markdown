@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Polytopia
+title: Polytopia <br/><br/>
 description: A math communication and citizen art project.
 img: /assets/img/polytopia_eckigruen.jpg
 importance: 2
