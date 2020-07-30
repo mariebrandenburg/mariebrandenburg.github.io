@@ -36,6 +36,9 @@ layout: default
     {% if page.profile.address %}
     <div class="address">
       {{ page.profile.address }}
+      {% if site.last_updated %}
+      <br><br><small>Last updated: {{ "now" | date: '%B %d, %Y' }}</small>
+      {% endif %}
     </div>
     {% endif %}
   </article>
