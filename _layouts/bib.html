@@ -19,6 +19,11 @@
       <span class="title">{{entry.title}}</span>
       <span class="author">
         {% for author in entry.author_array %}
+          {% if author.last == site.scholar.last_name %}
+            joint work with
+          {% endif %}
+        {% endfor %}
+        {% for author in entry.author_array %}
           {% if forloop.length == 1 %}
             {% if author.last == site.scholar.last_name %}
               <em>{{author.first}} {{author.last}}</em>
@@ -28,7 +33,7 @@
           {% else %}
             {% unless forloop.last %}
               {% if author.last == site.scholar.last_name %}
-                <em>{{author.first}} {{author.last}}</em>,
+                <!-- <em>{{author.first}} {{author.last}}</em>, -->
               {% else %}
                 {% if site.data.coauthors[author.last] %}
                   <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>,

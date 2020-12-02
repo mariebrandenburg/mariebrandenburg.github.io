@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: Marie-Charlotte Brandenburg
-email: marie.brandenburg@fu-berlin.de
+email: marie.brandenburg@mis.mpg.de
 description: > # this means to ignore newlines until "url:"
 footer_text: > # Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 
@@ -60,7 +60,7 @@ pagination:
   enabled: true
 
 # Comments
-disqus_shortname: al-folio # put your disqus shortname
+disqus_shortname:  # put your disqus shortname
 
 # -----------------------------------------------------------------------------
 # Collections
@@ -95,6 +95,7 @@ kramdown:
     block:
       line_numbers: false
       start_line: 1
+  
 
 # Includes & excludes
 include: ['_pages']
@@ -141,7 +142,6 @@ scholar:
 # -----------------------------------------------------------------------------
 
 enable_google_analytics:  false
-enable_katex:             true
 enable_mansory:           true
 enable_progressbar:       true
 enable_tooltips:          false
