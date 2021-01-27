@@ -75,8 +75,14 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+  events:
+    defaults:
+      layout: post
+    output: true
+    permalink: /events/:path/
 
 news_limit: 5
+events_limit: 10
 
 # -----------------------------------------------------------------------------
 # Jekyll settings

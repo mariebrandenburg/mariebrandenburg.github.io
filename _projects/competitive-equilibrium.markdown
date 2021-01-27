@@ -6,9 +6,9 @@ img: /assets/img/hammer.png
 importance: 3
 ---
 
-A combinatorial auction (or product-mix auction) is an auction, in which the price and allocation of multiple goods are decided simultatiously within an instant. In the setting of *quadratic valuations* and *quadratic anonymous pricing*, each bidder tells the auctioneer beforehands how much they would be willing to pay for each subset of goods. This *valuation* is controlled by a graph, for which weights on the vertices and edges define the valuation for each subset of goods. Given these valuations, the auctioneer decides a price per item and a distribution of the goods among the bidders.
+A combinatorial auction is an auction, in which the price and allocation of multiple goods are decided simultatiously within an instant. In the setting of *graphical valuations*, each bidder tells the auctioneer beforehands how much they would be willing to pay for each subset of goods. This valuation is controlled by a graph, for which weights on the vertices and edges define the valuation for each subset of goods. Given these valuations, the auctioneer decides a price per item and a distribution of the goods among the bidders.
 
- An bidder is happy with the outcome of an aution, if they receive a subset of goods at a price, which maximizes their *surplus*, i.e. the difference between what they were willing to pay and their actual costs for the bundle they receive. We pose the question of the existence of a price and an allocation, at which all bidders are happy; this is a *competitive equilibrium*. 
+ A bidder is happy with the outcome of an aution, if they receive a subset of goods at a price, which maximizes their surplus. We pose the question of the existence of a price and an allocation, at which all bidders are happy; this is a competitive equilibrium. 
 
  This project is based on my master thesis and joint work in progress together with [Christian Haase](https://www.mi.fu-berlin.de/en/math/groups/ag-diskret-algebra-geom/members/Professoren/christian_haase.html) and [Ngoc Mai Tran](https://web.ma.utexas.edu/users/ntran/).
 

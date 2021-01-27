@@ -125,6 +125,23 @@ a, table.table a {
   font-size: 1rem;
 }
 
+// Events
+
+.events table td {
+  font-size: 1rem;
+  text-align: left; 
+
+  .events-location {
+    font-style: italic;
+  }
+
+  
+}
+
+.events-date {
+    text-align: left;
+  }
+
 
 // Social (bottom)
 

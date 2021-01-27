@@ -27,6 +27,12 @@ layout: default
     {% if page.news %}
       {% include news.html %}
     {% endif %}
+
+    {% if page.events %}
+      <br> <br>
+      {% include events.html %}
+    {% endif %}
+
     {% if page.social %}
     <div class="social">
       {% include social.html %}

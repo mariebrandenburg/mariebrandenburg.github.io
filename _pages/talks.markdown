@@ -6,10 +6,10 @@ title: talks
 description:
 nav: true
 ---
+Here is a selection of talks (and slides) that I have been giving over the last year.
 
 &nbsp;
 
-## Slides 
 
 ---
 ### 2020

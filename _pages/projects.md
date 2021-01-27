@@ -3,9 +3,11 @@ order: 1
 layout: page
 title: projects & code
 permalink: /projects/
-description: 
+description:
 nav: true
 ---
+(Click on a tile for more information)
+{: style="color:gray; font-size: 90%; text-align: center;"}
 
 <div class="projects grid">
 
@@ -31,7 +33,7 @@ nav: true
               </div>
             {% endif %}
             {% if project.arxiv %}
-              <div class="icon" data-toggle="tooltip" title="arXiv link">
+              <div class="icon" data-toggle="tooltip" title="ArXiv Link">
                 <a href="{{ project.arxiv }}" target="_blank"><i class="ai ai-arxiv ai"></i></a>
               </div>
             {% endif %}
