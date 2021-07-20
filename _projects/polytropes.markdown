@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Polynomials of Polytropes
-description: Multivariate volume, Ehrhart, and \(h^*\)-polynomials of polytropes
+description: Multivariate volume, Ehrhart, and \(h^*\)-polynomials of polytropes.
 img: /assets/img/hexagon_icon.jpg
 importance: 1
 github: https://github.com/mariebrandenburg/polynomials-of-polytropes
