@@ -4,12 +4,21 @@ layout: page
 permalink: /talks/
 title: talks
 description:
-nav: false
+nav: true
 ---
-Here is a selection of talks (and slides) that I have been giving over the last year.
+Here is a selection of talks that I have been giving over the last year.
 
 &nbsp;
 
+---
+### 2021 
+---
+
+#### June 2021
+Nonlinear Algebra Seminar, MPI MiS  
+**The Positive Tropicalization of Rank 2 Matrices**
+
+&nbsp;
 
 ---
 ### 2020

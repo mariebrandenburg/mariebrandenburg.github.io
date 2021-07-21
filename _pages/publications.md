@@ -1,5 +1,5 @@
 ---
-order: 2
+order: 6
 layout: page
 permalink: /research/
 title: research
@@ -9,7 +9,7 @@ years_the: [2019,2016]
 nav: true
 ---
 &nbsp;
-### preprint
+### preprint and publication
 
 <div class="publications">
 

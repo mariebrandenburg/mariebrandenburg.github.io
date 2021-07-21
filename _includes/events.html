@@ -1,32 +1,26 @@
+{% capture nowunix %}{{'now' | date: '%Y%m'}}{% endcapture %}  
 <div class="events">
-  <h3>Upcoming Events</h3>
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-      
-      {% assign events = site.events %}
-      {% for item in events limit: site.events_limit %}
+  <h3>upcoming events</h3>
+  <div class="table-responsive">
+        <table class="table table-sm table-borderless">
+      {% for event in site.data.events reversed %}
+      {% capture posttime %}{{event.date | date: '%Y%m'}}{% endcapture %}
+      {% if nowunix < posttime %}
         <tr>
-          {% if item.end_date %}
-            {% if item.long_event %}
-              <th scope="row" class="events-date">{{ item.date | date: "%-d %B %Y" }} &ndash; {{ item.end_date | date: "%-d %B %Y" }}</th>
-            {% else %}
-              <th scope="row"  class="events-date">{{ item.date | date: "%-d" }} &ndash; {{ item.end_date | date: "%-d %B %Y" }}</th>
-            {% endif %}
-          {% else %}
-            <th scope="row" class="events-date">{{ item.date | date: "%-d %B %Y" }}</th>
-          {% endif %}
-          <td>
-            {% if item.external_url %}
-              <a class="events-title" href="{{ item.external_url }}">{{ item.title }}</a>
-            {% else %}
-              {{ item.title }}
-            {% endif %}
-            {% if item.location %}
-              <br> <a class="events-location">{{ item.location }}</a>
-            {% endif %}
-          </td>
-        </tr>
+              <th scope="row" class="events-date">{{ event.date | date: "%B %Y" }} </th>
+                <td>
+                  {% if event.url %}
+                    <a class="events-title" href="{{ event.url }}">{{ event.title }}</a>
+                  {% else %}
+                    {{ event.title }}
+                  {% endif %}
+                  {% if event.location %}
+                    <br> <a class="events-location">{{ event.location }}</a>
+                  {% endif %}
+                </td>
+            </tr>
+        {% endif %}
       {% endfor %}
-      </table>
-    </div>
+    </table>
+  </div>
 </div>

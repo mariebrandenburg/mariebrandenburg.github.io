@@ -55,10 +55,11 @@
           {% endif %}
         {% endfor %}
       </span>
-
       <span class="periodical">
       {% if entry.type == "article" %}
-        <em>{{entry.journal}}</em>
+        {% if entry.journal %}
+          <em>{{entry.journal}}, </em>
+        {% endif %}
       {% elsif entry.type == "inproceedings" %}
         <em>In {{entry.booktitle}}</em>
       {% endif %}
