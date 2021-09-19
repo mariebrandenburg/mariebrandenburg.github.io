@@ -3,7 +3,7 @@ layout: page
 title: Intersection Bodies of Polytopes
 description: Intersection bodies are beautiful creatures. Be careful if you find them in the tall grass.
 img: /assets/img/hexagon_icon.jpg
-nav : true
+nav : false
 importance: 4
 github: https://github.com/mariebrandenburg/polynomials-of-polytropes
 arxiv: https://arxiv.org/abs/2006.01920
