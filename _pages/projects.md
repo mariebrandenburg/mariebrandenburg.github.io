@@ -27,14 +27,19 @@ nav: true
           <h2 class="card-title text-lowercase">{{ project.title }}</h2>
           <p class="card-text">{{ project.description }}</p>
           <div class="row ml-1 mr-1 p-0 icon-wrapper">
+            {% if project.arxiv %}
+              <div class="icon" data-toggle="tooltip" title="ArXiv Link">
+                <a href="{{ project.arxiv }}" target="_blank"><i class="ai ai-arxiv ai"></i></a>
+              </div>
+            {% endif %}
             {% if project.github %}
               <div class="icon" data-toggle="tooltip" title="Code Repository">
                 <a href="{{ project.github }}" target="_blank"><i class="fab fa-github gh-icon"></i></a>
               </div>
             {% endif %}
-            {% if project.arxiv %}
-              <div class="icon" data-toggle="tooltip" title="ArXiv Link">
-                <a href="{{ project.arxiv }}" target="_blank"><i class="ai ai-arxiv ai"></i></a>
+            {% if project.mathrepo %}
+              <div class="icon" data-toggle="tooltip" title="MathRepo Link">
+                <a href="{{ project.mathrepo }}" target="_blank"><i class="fas fa-code"></i></a>
               </div>
             {% endif %}
           </div>

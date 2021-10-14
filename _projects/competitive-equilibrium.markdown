@@ -3,9 +3,11 @@ layout: page
 title: Competitive Equilibirium
 description: Making combinatorial autions a happier place. <br/>
 img: /assets/img/hammer.png
-importance: 1
+importance: -3
 arxiv: https://arxiv.org/abs/2107.08813
 ---
+
+arXiv: [107.08813](https://arxiv.org/abs/2107.08813)  
 
 A combinatorial auction is an auction, in which the price and allocation of multiple goods are decided simultatiously within an instant. In the setting of *graphical valuations*, each bidder tells the auctioneer beforehands how much they would be willing to pay for each subset of goods. This valuation is controlled by a graph, for which weights on the vertices and edges define the valuation for each subset of goods. Given these valuations, the auctioneer decides a price per item and a distribution of the goods among the bidders.
 

@@ -4,7 +4,7 @@ layout: page
 permalink: /talks/
 title: talks
 description:
-nav: true
+nav: false
 ---
 Here is a selection of talks that I have been giving over the last year.
 

@@ -4,7 +4,7 @@ layout: page
 permalink: /activities/
 title: activities
 description:
-nav: true
+nav: false
 ---
 {% capture nowunix %}{{'now' | date: '%Y%m'}}{% endcapture %}  
 
