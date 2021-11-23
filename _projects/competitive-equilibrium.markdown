@@ -29,5 +29,5 @@ A combinatorial auction is an auction, in which the price and allocation of mult
 </div>
 
 <div class="caption">
-	Special thanks for this gavel to my favorite comic artist <a href="https://lolnein.com/">LOLNEIN</a> 
+	Special thanks for this gavel to my favorite comic artist <a href="https://www.youtube.com/c/lolnein">LOLNEIN</a> 
 </div>

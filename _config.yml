@@ -19,6 +19,11 @@ navbar_fixed: true
 footer_fixed: false
 # TODO: add layout settings (single page vs. multi-page)
 
+autopages:
+
+  # Site-wide kill switch, disable here and it doesn't run at all 
+  enabled: false
+
 # -----------------------------------------------------------------------------
 # Open Graph
 # -----------------------------------------------------------------------------
@@ -42,7 +47,8 @@ quora_username: # your Quora username
 publons_id: # your ID on Publons
 research_gate_profile: # your profile on ResearchGate
 blogger_url: # your blogger URL
-arxiv_author_search: Brandenburg%2C+Marie-Charlotte
+arxiv_author_search: # Brandenburg%2C+Marie-Charlotte
+arxiv_author_site: brandenburg_m_1
 
 contact_note: # You can even add a little note about which of these is the best way to reach you.
 
