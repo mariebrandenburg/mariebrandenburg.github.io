@@ -3,7 +3,7 @@ layout: page
 title: Intersection Bodies
 description: Leaving the realm of polytopes and convex bodies.
 img: /assets/img/intersection_cube.png
-importance: -4
+importance: 4
 mathrepo: https://mathrepo.mis.mpg.de/intersection-bodies
 arxiv: https://arxiv.org/abs/2110.05996
 ---
@@ -12,6 +12,7 @@ arXiv: [2110.05996](https://arxiv.org/abs/2110.05996)
 MathRepo: [mathrepo.mis.mpg.de/intersection-bodies](https://mathrepo.mis.mpg.de/intersection-bodies)
 
 We investigate the intersection body of a convex polytope using tools from combinatorics and real algebraic geometry.  In particular, we show that the intersection body of a polytope is always a semialgebraic set and provide an algorithm for its computation.  Moreover, we compute the irreducible components of the algebraic boundary and provide an upper bound for the degree of these components.
+
 
 Our MathRepo page contains lots of supplementary material:
 - An implementation of an algorithm in `SageMath` to compute interseciton bodies of polytopes  

@@ -80,7 +80,7 @@
 
     <span class="links">
     {% if entry.abstract %}
-      [<a class="abstract">abs</a>]
+      [<a class="abstract">abstract</a>]
     {% endif %}
     {% if entry.arxiv %}
       [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
@@ -101,7 +101,7 @@
       [<a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" target="_blank">Poster</a>]
     {% endif %}
     {% if entry.slides %}
-      [<a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" target="_blank">Slides</a>]
+      [<a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" target="_blank">slides</a>]
     {% endif %}
     {% if entry.code %}
       [<a href="{{ entry.code }}" target="_blank">Code</a>]

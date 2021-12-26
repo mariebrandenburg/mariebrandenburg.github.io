@@ -11,7 +11,7 @@ nav: true
 
 <div class="projects grid">
 
-  {% assign sorted_projects = site.projects | sort: "importance" %}
+  {% assign sorted_projects = site.projects | sort: "importance" | reverse %}
   {% for project in sorted_projects %}
   <div class="grid-item">
     {% if project.redirect %}
@@ -40,6 +40,11 @@ nav: true
             {% if project.mathrepo %}
               <div class="icon" data-toggle="tooltip" title="MathRepo Link">
                 <a href="{{ project.mathrepo }}" target="_blank"><i class="fas fa-code"></i></a>
+              </div>
+            {% endif %}
+            {% if project.website %}
+              <div class="icon" data-toggle="tooltip" title="website">
+                <a href="{{ project.website }}" target="_blank"><i class="fas fa-code"></i></a>
               </div>
             {% endif %}
           </div>

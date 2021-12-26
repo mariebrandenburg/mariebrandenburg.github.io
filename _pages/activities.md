@@ -4,7 +4,7 @@ layout: page
 permalink: /activities/
 title: activities
 description:
-nav: false
+nav: true
 ---
 {% capture nowunix %}{{'now' | date: '%Y%m'}}{% endcapture %}  
 
@@ -12,7 +12,7 @@ nav: false
 
 ---
 
-### upcoming events
+### current and upcoming activities
 
 ---
 <div class="events">
@@ -22,7 +22,13 @@ nav: false
 			{% capture posttime %}{{event.date | date: '%Y%m'}}{% endcapture %}
 			{% if nowunix < posttime %}
 				<tr>
-			        <th scope="row" class="events-date">{{ event.date | date: "%B %Y" }} </th>
+					<th scope="row" class="events-date">
+						{% if event.start-date %}
+							{{ event.start-date | date: "%B %Y" }} - {{ event.date | date: "%B %Y" }} 
+						{% else %}
+			        		{{ event.date | date: "%B %Y" }} 
+			        	{% endif %}
+			        </th>
 		            <td>
 			            {% if event.url %}
 			              <a class="events-title" href="{{ event.url }}">{{ event.title }}</a>
@@ -53,7 +59,13 @@ nav: false
 			{% capture posttime %}{{event.date | date: '%Y%m'}}{% endcapture %}
 			{% if nowunix >= posttime %}
 				<tr>
-			        <th scope="row" class="events-date">{{ event.date | date: "%B %Y" }} </th>
+			        <th scope="row" class="events-date">
+						{% if event.start-date %}
+							{{ event.start-date | date: "%B %Y" }} - {{ event.date | date: "%B %Y" }} 
+						{% else %}
+			        		{{ event.date | date: "%B %Y" }} 
+			        	{% endif %}
+			        </th>
 		            <td>
 			            {% if event.url %}
 			              <a class="events-title" href="{{ event.url }}">{{ event.title }}</a>
