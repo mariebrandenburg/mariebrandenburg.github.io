@@ -3,7 +3,7 @@ order: 0
 layout: about
 title: about
 permalink: /
-description:  PhD student at MPI MiS <br> marie.brandenburg@mis.mpg.de | <a href="assets/pdf/CV.pdf">CV</a>
+description:  <b> PhD student at MPI MiS </b> <br> marie.brandenburg@mis.mpg.de | <a href="assets/pdf/CV.pdf">CV</a>
 
 profile:
   align: right
@@ -15,7 +15,7 @@ news: false
 social: true
 ---
 
-I am a PhD student in Mathematics at the Max Planck Institute for Mathematics in the Sciences, working in the [Nonlinear Algebra Group](https://www.mis.mpg.de/nlalg/research.html) under the guidance of [Rainer Sinn](http://www.math.uni-leipzig.de/~sinn/index_en.html). 
+I am a third year PhD student in Mathematics at the Max Planck Institute for Mathematics in the Sciences, working in the [Nonlinear Algebra Group](https://www.mis.mpg.de/nlalg/research.html) under the guidance of [Rainer Sinn](http://www.math.uni-leipzig.de/~sinn/index_en.html). I am graduating in spring 2023.
 
 [comment]: <> (My research interest lies in Tropical Geometry, especially its combinatorial aspects and the applications to Optimization.)
 My research interest lies in Combinatorics, especially with applications to Tropical Geometry, Algebraic Geometry and Optimization.

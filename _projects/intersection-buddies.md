@@ -13,13 +13,14 @@ MathRepo: [mathrepo.mis.mpg.de/intersection-bodies](https://mathrepo.mis.mpg.de/
 
 We investigate the intersection body of a convex polytope using tools from combinatorics and real algebraic geometry.  In particular, we show that the intersection body of a polytope is always a semialgebraic set and provide an algorithm for its computation.  Moreover, we compute the irreducible components of the algebraic boundary and provide an upper bound for the degree of these components.
 
+Here is a video animation that I made to explain the construction of intersection bodies: [[video]](../../assets/video/animation.mp4)
 
-Our MathRepo page contains lots of supplementary material:
+Our MathRepo page contains lots of additional supplementary material:
 - An implementation of an algorithm in `SageMath` to compute interseciton bodies of polytopes  
 - A step by step explanation of the algorithm with the example of the cube  
 - A gallery of 3d models that show how different intersection bodies can look like
 
-Here are 2 of the 3d models that are in the gallery. [Click here so see them all!](https://mathrepo.mis.mpg.de/intersection-bodies/case-study.html)
+Here are two of the 3d models that you can find in the gallery. [Click here so see them all!](https://mathrepo.mis.mpg.de/intersection-bodies/case-study.html)
 
 
 <div class="row">
