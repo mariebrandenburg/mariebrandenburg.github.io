@@ -4,7 +4,7 @@ title: Competitive Equilibirium
 description: Making combinatorial auctions a happier place. <br/>
 img: /assets/img/hammer.png
 importance: 3
-arxiv: https://arxiv.org/abs/2107.08813
+#arxiv: https://arxiv.org/abs/2107.08813
 ---
 
 arXiv: [2107.08813](https://arxiv.org/abs/2107.08813)  

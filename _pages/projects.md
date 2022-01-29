@@ -1,12 +1,12 @@
 ---
 order: 1
 layout: page
-title: projects & code
+title: projects | slides | code
 permalink: /projects/
 description:
 nav: true
 ---
-(Click on a tile for more information)
+(Click on a tile for more information, slides of talks or a link to code)
 {: style="color:gray; font-size: 90%; text-align: center;"}
 
 <div class="projects grid">

@@ -288,7 +288,7 @@ footer.sticky-bottom {
         margin-bottom: 0.5rem;
         abbr {
           display: inline-block;
-          background-color: $theme-color;
+          background-color: $cyan-color-light;
           padding-left: 1rem;
           padding-right: 1rem;
         }
@@ -336,9 +336,8 @@ footer.sticky-bottom {
           margin: 10px;
         }
         pre {
-          font-size: 1em;
-          line-height: 1.4em;
-          padding: 10px;
+          font-size: 0.9em;
+          margin: 10px;
         }
       }
       .hidden.open {

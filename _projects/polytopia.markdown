@@ -4,8 +4,8 @@ title: Polytopia
 description: A math communication and citizen art project.
 img: /assets/img/polytopia_eckigruen_icon.jpg
 importance: 1
-github: https://github.com/mariebrandenburg/polytopia
-facebook: polytopia.eu
+#github: https://github.com/mariebrandenburg/polytopia
+#facebook: polytopia.eu
 ---
 
 

@@ -82,11 +82,11 @@
     {% if entry.abstract %}
       [<a class="abstract">abstract</a>]
     {% endif %}
-    {% if entry.arxiv %}
-      [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
-    {% endif %}
     {% if entry.doi %}
       [<a href="https://doi.org/{{ entry.doi }}" target="_blank">doi</a>]
+    {% endif %}
+    {% if entry.arxiv %}
+      [<a href="http://arxiv.org/abs/{{ entry.arxiv }}" target="_blank">arXiv</a>]
     {% endif %}
     {% if entry.html %}
       [<a href="{{ entry.html }}" target="_blank">HTML</a>]
@@ -100,11 +100,16 @@
     {% if entry.poster %}
       [<a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" target="_blank">Poster</a>]
     {% endif %}
+    <!--
     {% if entry.slides %}
       [<a href="{{ entry.slides | prepend: '/assets/pdf/' | relative_url }}" target="_blank">slides</a>]
     {% endif %}
+  -->
     {% if entry.code %}
       [<a href="{{ entry.code }}" target="_blank">Code</a>]
+    {% endif %}
+    {% if entry.bibtexshow %}
+      [<a class="bibtex">bibtex</a>]
     {% endif %}
     </span>
 
@@ -112,6 +117,11 @@
     {% if entry.abstract %}
     <span class="abstract hidden">
       <p>{{ entry.abstract }}</p>
+    </span>
+    {% endif %}
+    {% if entry.bibtexshow %}
+    <span class="bibtex hidden">
+      <pre>{{ entry.bibtex }}</pre>
     </span>
     {% endif %}
   </div>
