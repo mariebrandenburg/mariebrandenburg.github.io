@@ -18,19 +18,11 @@
     {% else %}
       <span class="title">{{entry.title}}</span>
       <span class="author">
-        {% for author in entry.author_array %}
-          {% if author.last == site.scholar.last_name %}
-            joint work with
-          {% endif %}
-        {% endfor %}
-        {% for author in entry.author_array %}
-          {% if forloop.length == 1 %}
-            {% if author.last == site.scholar.last_name %}
-              <em>{{author.first}} {{author.last}}</em>
-            {% else %}
-              {{author.first}} {{author.last}}
-            {% endif %}
-          {% else %}
+        {% if entry.author_array.size == 1 %}
+          {{author.first}} {{author.last}}
+        {% else %}
+          with
+          {% for author in entry.author_array %}
             {% unless forloop.last %}
               {% if author.last == site.scholar.last_name %}
                 <!-- <em>{{author.first}} {{author.last}}</em>, -->
@@ -43,7 +35,7 @@
               {% endif %}
             {% else %}
               {% if author.last == site.scholar.last_name %}
-                and <em>{{author.first}} {{author.last}}</em>
+                <!-- and <em>{{author.first}} {{author.last}}</em> -->
               {% else %}
                 {% if site.data.coauthors[author.last] %}
                   and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>
@@ -52,8 +44,8 @@
                 {% endif %}
               {% endif %}
             {% endunless %}
-          {% endif %}
-        {% endfor %}
+          {% endfor %}
+        {% endif %}
       </span>
       <span class="periodical">
       {% if entry.type == "article" %}
@@ -73,6 +65,9 @@
         {{entry.pages}}, 
       {% endif %}
       {% if entry.year %}
+        {% if entry.month %}
+          {{entry.month | date: "%B"}}
+        {% endif %}
          {{entry.year}}
       {% endif %}
       </span>
