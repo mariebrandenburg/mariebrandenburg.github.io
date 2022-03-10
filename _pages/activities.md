@@ -6,7 +6,7 @@ title: activities
 description:
 nav: true
 ---
-{% capture nowunix %}{{'now' | date: '%Y%m'}}{% endcapture %}  
+{% capture nowunix %}{{'now' | date: '%Y%m%d'}}{% endcapture %}  
 
 &nbsp;
 
@@ -19,7 +19,7 @@ nav: true
 	<div class="table-responsive">
 	      <table class="table table-sm table-borderless">
 			{% for event in site.data.events reversed %}
-			{% capture posttime %}{{event.date | date: '%Y%m'}}{% endcapture %}
+			{% capture posttime %}{{event.date | date : '%Y%m%d'}}{% endcapture %}
 			{% if nowunix < posttime %}
 				<tr>
 					<th scope="row" class="events-date">
@@ -56,7 +56,7 @@ nav: true
 	<div class="table-responsive">
 	      <table class="table table-sm table-borderless">
 			{% for event in site.data.events %}
-			{% capture posttime %}{{event.date | date: '%Y%m'}}{% endcapture %}
+			{% capture posttime %}{{event.date | date: '%Y%m%d'}}{% endcapture %}
 			{% if nowunix >= posttime %}
 				<tr>
 			        <th scope="row" class="events-date">

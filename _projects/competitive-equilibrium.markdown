@@ -8,6 +8,7 @@ importance: 3
 ---
 
 arXiv: [2107.08813](https://arxiv.org/abs/2107.08813)  
+Slides: [slides.pdf](../../assets/pdf/auctions-slides.pdf)
 
 A combinatorial auction is an auction, in which the price and allocation of multiple goods are decided simultatiously within an instant. In the setting of *graphical valuations*, each bidder tells the auctioneer beforehands how much they would be willing to pay for each subset of goods. This valuation is controlled by a graph, for which weights on the vertices and edges define the valuation for each subset of goods. Given these valuations, the auctioneer decides a price per item and a distribution of the goods among the bidders.
 

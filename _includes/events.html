@@ -1,10 +1,10 @@
-{% capture nowunix %}{{'now' | date: '%Y%m'}}{% endcapture %}  
+{% capture nowunix %}{{'now' | date: '%Y%m%d'}}{% endcapture %}  
 <div class="events">
   <h3>current and upcoming activities</h3>
   <div class="table-responsive">
         <table class="table table-sm table-borderless">
       {% for event in site.data.events reversed %}
-      {% capture posttime %}{{event.date | date: '%Y%m'}}{% endcapture %}
+      {% capture posttime %}{{event.date | date: '%Y%m%d'}}{% endcapture %}
       {% if nowunix < posttime %}
         <tr>
           <th scope="row" class="events-date">
