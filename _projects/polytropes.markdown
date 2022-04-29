@@ -8,6 +8,7 @@ importance: 2
 #arxiv: https://arxiv.org/abs/2006.01920
 ---
 
+published article: [ScienceDirect](https://www.sciencedirect.com/science/article/abs/pii/S0747717122000311)  
 arXiv: [2006.01920](https://arxiv.org/abs/2006.01920)  
 GitHub: [mariebrandenburg/polynomials-of-polytropes](https://github.com/mariebrandenburg/polynomials-of-polytropes)  
 Slides: [slides.pdf](../../assets/pdf/polytropes-slides.pdf)

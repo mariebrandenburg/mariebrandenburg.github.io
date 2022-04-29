@@ -68,8 +68,11 @@
         {% if entry.month %}
           {{entry.month | date: "%B"}}
         {% endif %}
-         {{entry.year}}
+         {{entry.year}}.
       {% endif %}
+      {% if entry.note %}
+          {{entry.note}}
+        {% endif %}
       </span>
     {% endif %}
 
