@@ -141,14 +141,14 @@ scholar:
   bibliography: papers.bib
   bibliography_template: bib
 
-  replace_strings: true
+  replace_strings: False
   join_strings: true
 
   details_dir: bibliography
   details_layout: bibtex.html
   details_link: Details
 
-  bibtex_skip_fields: ["abstract", "abbr", "arxiv", "slides", "url", "bibtexshow", "month_numeric"]
+  bibtex_skip_fields: ["abstract", "abbr", "arxiv", "slides", "url", "bibtexshow", "month_numeric", "thumbnail"]
   query: "@*"
 
 # -----------------------------------------------------------------------------

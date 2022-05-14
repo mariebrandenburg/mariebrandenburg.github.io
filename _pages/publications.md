@@ -4,22 +4,38 @@ layout: page
 permalink: /research/
 title: research
 description: 
-years_pre: [2022, 2021]
+years_pre: [2021]
+years_pub: [2022, 2021]
 years_the: [2019,2016]
 nav: true
 ---
 &nbsp;
-### preprint and publication
+### preprint
 
 <div class="publications">
 
 {% for y in page.years_pre %}
   <h2 class="year">{{y}}</h2>
-  {% bibliography -f papers -q @*[year={{y}}]* %}
+  {% bibliography -f preprint -q @*[year={{y}}]* %}
 {% endfor %}
 </div>
 
 ---
+
+&nbsp;
+
+
+### publication
+
+<div class="publications">
+
+{% for y in page.years_pub %}
+  <h2 class="year">{{y}}</h2>
+  {% bibliography -f published -q @*[year={{y}}]* %}
+{% endfor %}
+</div>
+
+___
 
 &nbsp;
 

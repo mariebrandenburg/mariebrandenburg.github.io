@@ -2,8 +2,14 @@
 ---
 
 <div class="row">
-  <div class="col-sm-2 abbr">
-  {% if entry.abbr %}
+  <div class="col-md-3 abbr">
+  {% if entry.thumbnail %}
+    {% if entry.doi %}
+      <a href="https://doi.org/{{ entry.doi }}"><img width="185px" src="{{ entry.thumbnail | prepend: '/assets/img/thumbnails/' | relative_url }}"/></a>
+    {% else %}
+      <img width="190px" src="{{ entry.thumbnail | prepend: '/assets/img/thumbnails/' | relative_url }}"/>
+    {% endif %}
+  {% elsif entry.abbr %}
     {% if site.data.venues[entry.abbr] %}
     <abbr class="badge"><a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a></abbr>
     {% else %}
@@ -12,7 +18,7 @@
   {% endif %}
   </div>
 
-  <div id="{{entry.key}}" class="col-sm-8">
+  <div id="{{entry.key}}" class="col-md-8">
     {% if entry.type == "thesis" %}
       {{reference}}
     {% else %}
@@ -38,9 +44,9 @@
                 <!-- and <em>{{author.first}} {{author.last}}</em> -->
               {% else %}
                 {% if site.data.coauthors[author.last] %}
-                  and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>
+                  and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>.
                 {% else %}
-                  and {{author.first}} {{author.last}}
+                  and {{author.first}} {{author.last}}.
                 {% endif %}
               {% endif %}
             {% endunless %}
@@ -71,7 +77,7 @@
          {{entry.year}}.
       {% endif %}
       {% if entry.note %}
-          {{entry.note}}
+          {{entry.note}}.
         {% endif %}
       </span>
     {% endif %}
