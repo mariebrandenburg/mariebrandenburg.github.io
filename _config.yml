@@ -141,7 +141,7 @@ scholar:
   bibliography: papers.bib
   bibliography_template: bib
 
-  replace_strings: False
+  replace_strings: true
   join_strings: true
 
   details_dir: bibliography
