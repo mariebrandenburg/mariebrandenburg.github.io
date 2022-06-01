@@ -4,8 +4,8 @@ layout: page
 permalink: /research/
 title: research
 description: 
-years_pre: [2021]
-years_pub: [2022, 2021]
+years_pre: [2022, 2021]
+years_pub: [2023, 2022, 2021]
 years_the: [2019,2016]
 nav: true
 ---
