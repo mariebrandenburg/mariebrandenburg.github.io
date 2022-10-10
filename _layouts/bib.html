@@ -61,9 +61,17 @@
           <em>{{entry.journal}}, </em>
         {% endif %}
       {% elsif entry.type == "inproceedings" %}
-        <em>In {{entry.booktitle}}</em>
+        In:
+        {% if entry.editor %}
+          {{entry.editor}} (ed.),
+        {% endif %}
+        <em>{{entry.booktitle}},</em>
       {% endif %}
-      {% if entry.volume %}{{entry.volume}}{% endif %}{% if entry.number %}({{entry.number}}){% endif %}{% if entry.pages %}:{{entry.pages}},{% endif %}
+      {% if entry.volume or entry.number %}
+        {% if entry.volume %}{{entry.volume}}{% endif %}{% if entry.number %}({{entry.number}}){% endif %}{% if entry.pages %}:{{entry.pages}},{% endif %}
+      {% elsif entry.pages %}
+       pp. {{entry.pages}},
+      {% endif %}
       {% if entry.year %}
         {% if entry.month %}
           {{entry.month | date: "%B"}}
@@ -90,10 +98,10 @@
       [<a href="{{ entry.html }}" target="_blank">HTML</a>]
     {% endif %}
     {% if entry.pdf %}
-      [<a href="{{ entry.pdf | prepend: '/assets/pdf/' | relative_url }}" target="_blank">PDF</a>]
+      [<a href="{{ entry.pdf }}" target="_blank">pdf</a>]
     {% endif %}
     {% if entry.supp %}
-      [<a href="{{ entry.supp | prepend: '/assets/pdf/' | relative_url }}" target="_blank">Supp</a>]
+      [<a href="{{ entry.supp }}" target="_blank">supplementary material</a>]
     {% endif %}
     {% if entry.poster %}
       [<a href="{{ entry.poster | prepend: '/assets/pdf/' | relative_url }}" target="_blank">Poster</a>]

@@ -11,7 +11,7 @@ nav: true
 &nbsp;
 
 ---
-
+<!--
 ### current and upcoming activities
 
 ---
@@ -47,7 +47,7 @@ nav: true
 </div>
 
 ---
-
+-->
 ### past events
 
 ---

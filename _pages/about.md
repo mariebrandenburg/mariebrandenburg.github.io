@@ -10,7 +10,7 @@ profile:
   image: prof_pic.jpg
   address: <strong>Office:</strong> R. F3 15, Inselstr. 22, 04103 Leipzig
 
-events: true
+events: false
 news: false
 social: true
 ---
