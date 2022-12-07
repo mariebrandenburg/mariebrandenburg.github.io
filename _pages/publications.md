@@ -6,7 +6,7 @@ title: research
 description: 
 years_preprint: [2022, 2021]
 years_publication: [2023, 2022, 2021]
-years_thesis: [2019,2016]
+years_thesis: [2022,2019,2016]
 nav: true
 ---
 &nbsp;

@@ -88,7 +88,7 @@ collections:
     output: true
     permalink: /events/:path/
 
-news_limit: 5
+news_limit: 3
 events_limit: 10
 
 # -----------------------------------------------------------------------------
@@ -131,7 +131,7 @@ scholar:
 
   last_name: Brandenburg
 
-  style: apa
+  style: ieee
   locale: en
 
   sort_by: year
