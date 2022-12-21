@@ -1,21 +1,30 @@
 ---
 layout: page
-title: Polytopia
-description: A math communication and citizen art project.
+title: Outreach
+description: Communicating mathematics to a general audience.
 img: /assets/img/polytopia_eckigruen_icon.jpg
 importance: 1
+category: other
 #github: https://github.com/mariebrandenburg/polytopia
 #facebook: polytopia.eu
 ---
 
+I have always been interested both in strengthening the communication between different mathematical disciplines, as well as communicating the joys of mathematics to a non-mathematical audience.
+During my masters' I was involved in a project to which aimed to communicate the basic concepts of polytopes to a general audience. The main project was to develop the online platform [Polytopia](https://www.polytopia.eu).
+
+&nbsp;
+
+### Polytopia ###
+#### A math communication and citizen art project. ####
 
 [Polytopia](https://www.polytopia.eu) is a math communication project that makes polytopes accessible to a general audience. This project is associated to the Collaborative Research Center [Discretization in Geometry and Dynamics](https://www.discretization.de/projects/CaP/) and was lead by [Anna Maria Hartkopf](https://www.mi.fu-berlin.de/math/groups/discgeom/members/hartkopf.html). 
 
-On the website one can adopt a 3-dimensional polytope, give it a name and customize it by coloring its faces. It is accompanied by a crafting sheet and files for 3D-printing, with which it can be brought to life in the real world. Using a VR viewer such as a `Google Cardboard`, all polytopes can be investigated on the website in virtual reality (unfortunaltely iOS has disabled motion tracking on recent iOS systems, so the VR viewer does not operate on these systems flawlessly). 
+On the website one can adopt a 3-dimensional polytope, give it a name and customize it by coloring its faces. It is accompanied by a crafting sheet and files for 3D-printing, with which it can be brought to life in the real world. Using a VR viewer such as a `Google Cardboard`, all polytopes can be investigated on the website in virtual reality[^1].
 To explore the world of polyhedra even further, there is teaching material for middle and high school classes, as well as a mini-game, in which one can find Hamiltonian cycles on the 1-skeleton of the polytopes.
 
-The implementation of the `ThreeJS`-viewer that is used to display the polytopes can be found [in this repository](https://github.com/mariebrandenburg/polytopia). It also contains the implementation of the VR viewer and the mini-game for finding Hamiltonian cycles.
+I was mainly involved in the implementation of the `ThreeJS`-viewer that is used to display the polytopes can be found [in this repository](https://github.com/mariebrandenburg/polytopia). It also contains the implementation of the VR viewer and the mini-game for finding Hamiltonian cycles.
 
+ [^1]: unfortunaltely iOS has disabled motion tracking on recent iOS systems, so the VR viewer does not operate on these systems flawlessly 
 
 
 <div class="row">

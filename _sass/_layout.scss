@@ -94,7 +94,11 @@ h1 {
   //  border-top: 1px solid $grey-color-light;
   //  padding-top: 1rem;
   // }
-
+    li:first-child {
+      .title {
+        margin-right: 4.5rem;
+      }
+    }
     li {
       margin-bottom: 2rem;
       .abbr {

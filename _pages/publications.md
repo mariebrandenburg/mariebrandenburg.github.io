@@ -1,10 +1,10 @@
 ---
 order: 6
 layout: page
-permalink: /research/
-title: research
+permalink: /publications/
+title: publications
 description: 
-years_preprint: [2022, 2021]
+years_preprint: [2022]
 years_publication: [2023, 2022, 2021]
 years_thesis: [2022,2019,2016]
 nav: true

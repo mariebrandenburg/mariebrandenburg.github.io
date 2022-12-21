@@ -1,30 +1,43 @@
 ---
 layout: page
-title: Equilibria in Economics and Game Theory
-description: The mathematics of making everybody happy. <br/>
+title: Game Theory and Economics
+description: Equilibria -- The mathematics of making everybody happy. <br/>
 img: /assets/img/hammer.png
 importance: 3
+category: research
 #arxiv: https://arxiv.org/abs/2107.08813
 ---
 
-I have worked on two different projects involving concepts of equilibria. In general, an equilibrium in a game (game theory) or auction (economics) is reached, if each participating player or bidder conciders the outcome as most beneficial for their own (selfish) good. Mathematically, this can take various forms depending on the mathematical formulation of the problem, as well as the assumptions and variables that are taken into account.
+I have worked on two different projects involving concepts of equilibria. In general, an equilibrium in a game (game theory) or auction (economics) is reached if each participating player or bidder conciders the outcome as most beneficial for their own (selfish) good compared to the possible alterntives. Mathematically, this can take various forms depending on the mathematical formulation of the problem, as well as the assumptions and variables that are taken into account.
 
 
 ### Competitive Equilibrium in Economics ###
 
-A combinatorial auction is an auction, in which the price and allocation of multiple goods are decided simultatiously within an instant. In the setting of *graphical valuations*, each bidder tells the auctioneer beforehands how much they would be willing to pay for each subset of goods. This valuation is controlled by a graph \\(G\\), for which weights on the vertices and edges define the valuation for each subset of goods. Given these valuations, the auctioneer decides a price per item and a distribution of the goods among the bidders.
+A combinatorial auction is an auction in which the price and distribution of multiple goods are decided simultatiously within an instant. In the setting of *graphical valuations*, each bidder tells the auctioneer beforehands how much they would be willing to pay for each subset of goods. This valuation is controlled by a graph \\(G\\), for which weights on the vertices and edges define the bidders' valuation for each subset of goods. Given these valuations, the auctioneer decides a price per item and a distribution of the goods among the bidders.
 
- A bidder is happy with the outcome of an aution, if they receive a subset of goods at a price, which maximizes their surplus. We pose the question of the existence of a price and an allocation, at which all bidders are happy; this is a competitive equilibrium. 
+ A bidder is happy with the outcome of an aution, if they receive a subset of goods at a price which maximizes their surplus. We pose the question of the existence of a price and an allocation, at which all bidders are happy; this is a competitive equilibrium. Pushing this further, we can ask if a competitive equilibrium is *guarenteed* to exist, meaning that we can always find a price and distribution to make everybody happy, regardless of the bidders' own preferences.
 
-We translate the question of the existence of a competitive equilibrium to a condition on lattice points in the Minkowski sum of faces of a certain polytope \\(P(G)\\). This condition can be viewed as a generalization of the *Integer Decomposition Property* of lattice polytopes. In the case of the complete graph, the polytope turns out to be the *correlation polytope*, a polytope which is isomorphic to the cut polytope.
+We translate the question of the (guaranteed) existence of a competitive equilibrium to a condition on lattice points in the Minkowski sum of faces of a certain polytope \\(P(G)\\). This condition can be viewed as a generalization of the *Integer Decomposition Property* of lattice polytopes. In the case of the complete graph, the polytope turns out to be the *correlation polytope*, a polytope which is isomorphic to the cut polytope (however, this is not a lattice-isomorphism).  
+In the case of the complete graph, every bidder is asked for their bid with regards to every single item and every pair of items. We show that in this case the condition on the correlation polytope can always be satisfied, thus implying that a competitive equilibrium is always guaranteed to exist.
+
+&nbsp;  
 
 ##### Slides of Talks #####
-4  March 2022. [Mini-Symposium on Lattice Polytopes.](../../assets/pdf/auctions-slides.pdf)
+
+|  | | |
+|  --:  | :-- | :-- |
+|  4 March 2022  &nbsp; | [Mini-Symposium on Lattice Polytopes](https://sites.google.com/view/mini-symposium-lattice-poly-22/home)  | [[Slides]](../../assets/pdf/slides/competitive-equilibrium/22-03-mini-symposium.pdf) | 
+| 16 March 2022 &nbsp; | [DM/G-Seminar at TU Berlin](https://www.math.tu-berlin.de/fachgebiete_ag_diskalg/fg_diskrete_mathematik_geometrie/v_menue/veranstaltungen/v_menue/veranstaltungen/)    | [[Slides]](../../assets/pdf/slides/competitive-equilibrium/22-03-dmg-seminar.pdf)    | 
+|  4 July 2022  &nbsp; | [Discrete Math Days](https://dmd2022.unican.es) | [[Slides]](../../assets/pdf/slides/competitive-equilibrium/22-07-dmd.pdf) | 
+|  5 October 2022 &nbsp;  | MOR Seminar at University of Twente &nbsp;&nbsp;| [[Slides]](../../assets/pdf/slides/competitive-equilibrium/22-10-twente.pdf) | 
+
+
+&nbsp;  
 
 
 ##### References #####
 <div class="publications">
-  {% bibliography -f preprint --query @*[abbr=BHT21] %}
+  {% bibliography -f published --query @*[abbr=BHT22 || abbr=BHT23] %}
 </div>
 
 &nbsp;
@@ -39,6 +52,7 @@ We translate the question of the existence of a competitive equilibrium to a con
 
 We study the *Region of full-dimensionality*, a semialgebriac set which describes the conditions for the polytope to be of maximal dimension. By a use of oriented matroid strata we investigate the possible combinatorial types of such polytopes that can appear for small games.
 
+##### References #####
 <div class="publications">
   {% bibliography -f preprint --query @*[abbr=BHP22] %}
 </div>
