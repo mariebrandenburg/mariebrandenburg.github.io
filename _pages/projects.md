@@ -7,7 +7,7 @@ description:
 nav: true
 ---
 
-This site gives an overview over the various topics I have worked on and got involved in. Click on a tile for more detailed description, projects I have worked on regarding these topics, slides of talks I have given, and further suplementary material.
+This site gives an overview over the various topics I have worked on and activities I am involved in. Click on a tile for a more detailed description, expositions of projects I have worked on regarding these topics, slides of talks I have given, and further suplementary material.
 
 &nbsp;
 
