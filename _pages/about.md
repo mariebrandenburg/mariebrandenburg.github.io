@@ -3,21 +3,22 @@ order: 0
 layout: about
 title: about
 permalink: /
-description:  <b> PhD student at MPI MiS </b> <br> marie.brandenburg@mis.mpg.de | <a href="assets/pdf/CV.pdf">CV</a>
+description:  <b> Postdoc at MPI MiS </b> <br> marie.brandenburg@mis.mpg.de | <a href="assets/pdf/CV.pdf">CV</a>
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: <strong>Office:</strong> R. F3 15, Inselstr. 22, 04103 Leipzig
+  address: <strong>Office:</strong> R. G3 04, Inselstr. 22, 04103 Leipzig
 
 events: false
-news: true
+news: false
 social: true
 ---
 
-I am a third year PhD student in Mathematics at the Max Planck Institute for Mathematics in the Sciences, working in the [Nonlinear Algebra Group](https://www.mis.mpg.de/nlalg/research.html) under the guidance of [Rainer Sinn](http://www.math.uni-leipzig.de/~sinn/index_en.html). I am graduating in spring 2023.
 
-[comment]: <> (My research interest lies in Tropical Geometry, especially its combinatorial aspects and the applications to Optimization.)
-My research interest lies in Combinatorics and Discrete Geometry, especially with applications to Tropical Geometry, Algebraic Geometry and Optimization.
- Before coming to Leipzig, I started my PhD at Freie Universität Berlin in the research groups [Discrete Methods in Algebraic Geometry](http://www.mi.fu-berlin.de/math/groups/ag-diskret-algebra-geom/index.html) and [Discrete Geometry](https://www.mi.fu-berlin.de/en/math/groups/discgeom/index.html).
-I also earned a master's degree at Freie Universität Berlin. My master thesis concerned connections of polytopes to competitive equilibria in economics and was advised by [Christian Haase](https://www.mi.fu-berlin.de/en/math/groups/ag-diskret-algebra-geom/members/Professoren/christian_haase.html). 
+I am a postdoc in the [Mathematical Machine Learning](https://www.mis.mpg.de/montufar/index.html) group of [Guido Montúfar](https://personal-homepages.mis.mpg.de/montufar/) at the Max Planck Institute for Mathematics in the Sciences. I am part of the DFG priority program [SPP 2298: Theoretical Foundations of Deep Learning - Combinatorial and Implicit Apporoaches to Deep Learning](https://www.foundationsofdl.de). 
+
+My research interest lies in the intersection between Combinatorics and Discrete Geometry, Tropical Geometry and Algebraic Geometry. The core of my research lies in polyhedral geometry, with a wide range of applications in Machine Learning, Optimization, Economics and Game Theory. Please see the [topics](/topics/) page for a detailed exposition.
+
+I submitted my PhD thesis [*Tropical Positivity and Semialgebraic Sets from Polytopes*](assets/pdf/dissertation-final.pdf) in December 2023, which I worked on under the guidance of [Rainer Sinn](http://www.math.uni-leipzig.de/~sinn/index_en.html). During my PhD I was part of the [Nonlinear Algebra Group](https://www.mis.mpg.de/nlalg/research.html) of [Bernd Sturmfels](https://math.berkeley.edu/~bernd/) at MPI MiS.
+ Before coming to Leipzig I started my PhD at Freie Universität Berlin, where I was part of the research groups [Discrete Methods in Algebraic Geometry](http://www.mi.fu-berlin.de/math/groups/ag-diskret-algebra-geom/index.html) and [Discrete Geometry and Topological Combinatorics](https://www.mi.fu-berlin.de/en/math/groups/discgeom/index.html).

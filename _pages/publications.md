@@ -10,7 +10,7 @@ years_thesis: [2022,2019,2016]
 nav: true
 ---
 &nbsp;
-### preprint
+### preprints
 
 <div class="publications">
 
@@ -25,7 +25,7 @@ nav: true
 &nbsp;
 
 
-### publication
+### publications
 
 <div class="publications">
 
@@ -41,7 +41,7 @@ ___
 &nbsp;
 
 
-### thesis
+### theses
 
 <div class="publications">
 

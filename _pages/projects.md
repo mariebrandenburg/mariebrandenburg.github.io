@@ -1,13 +1,13 @@
 ---
 order: 1
 layout: page
-title: projects | slides
-permalink: /projects/
+title: topics
+permalink: /topics/
 description:
 nav: true
 ---
 
-This site is to give an overview over the various projects I have worked on in the last years, ordered by topic. Click on a tile for more information on my previous work, slides of talks I have given on them, and additional suplementary material.
+This site gives an overview over the various topics I have worked on and got involved in. Click on a tile for more detailed description, projects I have worked on regarding these topics, slides of talks I have given, and further suplementary material.
 
 &nbsp;
 

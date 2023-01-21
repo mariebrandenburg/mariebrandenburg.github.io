@@ -10,7 +10,7 @@ category: other
 ---
 
 I have always been interested both in strengthening the communication between different mathematical disciplines, as well as communicating the joys of mathematics to a non-mathematical audience.
-During my masters' I was involved in a project to which aimed to communicate the basic concepts of polytopes to a general audience. The main project was to develop the online platform [Polytopia](https://www.polytopia.eu).
+During my masters' I was involved in a project which aimed to communicate the basic concepts of polytopes to a general audience. The main project was to develop the online platform [Polytopia](https://www.polytopia.eu).
 
 &nbsp;
 
@@ -24,7 +24,7 @@ To explore the world of polyhedra even further, there is teaching material for m
 
 I was mainly involved in the implementation of the `ThreeJS`-viewer that is used to display the polytopes can be found [in this repository](https://github.com/mariebrandenburg/polytopia). It also contains the implementation of the VR viewer and the mini-game for finding Hamiltonian cycles.
 
- [^1]: unfortunaltely iOS has disabled motion tracking on recent iOS systems, so the VR viewer does not operate on these systems flawlessly 
+ [^1]: unfortunaltely iOS has disabled motion tracking on recent iOS systems, so the VR viewer does not operate on these systems anymore
 
 
 <div class="row">

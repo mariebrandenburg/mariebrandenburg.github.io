@@ -10,9 +10,11 @@ toc: true
 # arxiv: https://arxiv.org/abs/2110.05996
 ---
 
-Geometric Tomography is the area of mathematics dealing with the retrieval of information about a geometric object from data about its sections, or projections, or both. Given a convex body (or more generally a star body), in this area of mathematics one associates a projection body, cross-section body or intersection body to the given object. Typically, this area of mathematics builds on tools from convex analysis. In an ongoing series of works we study intersection bodies of polytopes from a combinatorial and algebraic perspective.
 
-The intersection body of a geometric object is constructed by measuring the volume of central hyperplane sections. More precisely, let $$P \subseteq \mathbb{R}^d$$ be a star body (for example a convex body or a polytope). Pick a unit direction $$u \in S^{d-1}$$ on the unit sphere, and let $$u^\perp \subseteq \mathbb{R}^d$$ denote the orthogonal hyperplane contiaining the origin. We measure the $$(d-1)$$-dimensional Euclidean volume $$\rho(u)$$ of the section $$P \cap u^\perp$$. The intersection body $$IP$$ of $$P$$ is defined to be the unique star body such that $$\rho(u)$$ is the distance from the origin to the boundary of $$IP$$ in direction $$u$$. This video illustrates this construction:
+Intersection bodies of polytopes are geometric objects, which we can describe by using a variety of combinatorial and algebraic methods. This site describes previous and ongoing work regarding these objects. The first project that is described below focuses on (real) algebro-geometric aspects, where we describe their semialgebraic structure, which is governed by an underlying hyperplane arrangement. The second project below describes an ongoing follow-up work in which we consider the transformation of the intersection body under translation of the polytope, and pose the question of when an intersection body of a polytope is convex.
+
+
+The intersection body of a geometric object is constructed by measuring the volume of central hyperplane sections. More precisely, let $$P \subseteq \mathbb{R}^d$$ be a star body (for example a convex body or a polytope). Pick a unit direction $$u \in S^{d-1}$$ on the unit sphere, and let $$u^\perp \subseteq \mathbb{R}^d$$ denote the orthogonal hyperplane contiaining the origin. We measure the $$(d-1)$$-dimensional Euclidean volume $$\rho(u)$$ of the section $$P \cap u^\perp$$. The *intersection body* $$IP$$ of $$P$$ is defined to be the unique star body such that $$\rho(u)$$ is the distance from the origin to the boundary of $$IP$$ in direction $$u$$. This video illustrates this construction:
 
 <center>
 <video width="100%" height="auto" autoplay loop>
@@ -22,12 +24,16 @@ The intersection body of a geometric object is constructed by measuring the volu
 </center>
 
 &nbsp;  
-&nbsp;
+
+Historically, intersection bodies arose from questions in convex analysis, and have thus mostly been studied with methods drawn from this area. They are closely related projection bodies and cross-section bodies. Richard Garnder has coined the term *Geometric Tomography* for the study of these objects, which he describes as "*the area of mathematics dealing with the retrieval of information about a geometric object from data about its sections, or projections, or both.*"
+
+&nbsp;  
+
 
 ### Semialgebraic Intersection Bodies ###
 
 
-In general, intersection bodies are known not to be semialgebraic sets. However, in the case of polytopes, we show that the intersection body of a polytope is always semialgebraic, and we provide an algorithm for its computation. We show that the regions of polynomiality of the boundary of $$IP$$ are defined by a hyperplane arrangement, which allows us to associate a zonotope to an intersection body of a polytope.  
+In general, intersection bodies are not semialgebraic sets. However, in the case of polytopes, we show that the intersection body of a polytope is always semialgebraic, and we provide an algorithm for its computation. We show that the regions of polynomiality of the boundary of $$IP$$ are defined by a hyperplane arrangement, which allows us to associate a zonotope to an intersection body of a polytope.  
 Furthermore, we consider the algebraic boundary of $$IP$$, which is the algebraic variety that is the (complex) Zariski closure of its Euclidean boundary. We compute the irreducible components of the algebraic boundary and provide an upper bound for the degree of these components.
 
 &nbsp;
@@ -55,7 +61,13 @@ Furthermore, we consider the algebraic boundary of $$IP$$, which is the algebrai
 
 ### Convex Intersection Bodies of Polygons ###
 
-Intersection bodies are not always convex. In fact, it is known that every star body has an affine translation such that its intersection body is non-convex. We investigate this question for intersection bodies of polytopes, focussing on the 2-dimensional case. Surprisingly, it turns out that every polygon has only finitely many transpositions such that its intersection body is convex, and the number of such translations is at most 5. This is current work in progress together with [Chiara Meroni](https://merochia.wixsite.com/chiara-meroni). The results on the 2-dimensional case can already be found in my PhD Thesis (Chapter 4.6).  
+Intersection bodies are not always convex. In fact, it is known that every star body has an affine translation such that its intersection body is non-convex. In a current work in progress together with [Chiara Meroni](https://merochia.wixsite.com/chiara-meroni) we consider the behaviour of an intersection body of a polytope when translating the polytope and pose the following question:
+
+> *For a fixed polytope $$P$$, what is the set of translations $$t$$ such that the intersection body $$I(P+t)$$ of $$P+t$$ is convex?*
+
+Our results on the 2-dimensional case can already be found in my PhD Thesis (Chapter 4.6). Surprisingly, it turns out that every polygon has only finitely many transpositions such that its intersection body is convex, and the number of such translations is at most 5. 
+
+We expect the results on the general case to appear on the arXiv soon.
 
 &nbsp;
 
@@ -70,11 +82,11 @@ Intersection bodies are not always convex. In fact, it is known that every star 
 ### Supplementary Material ###
 
 Our [MathRepo page](https://mathrepo.mis.mpg.de/intersection-bodies/) contains lots of additional supplementary material:
-- An implementation of an algorithm in `SageMath` to compute interseciton bodies of polytopes  
-- A step by step explanation of the algorithm with the example of the cube  
-- A gallery of 3d models that show how different intersection bodies can look like when translating the original polytope
+- We implemented an algorithm in `SageMath` to compute interseciton bodies of polytopes of any dimension. We also implemented this algorimth in `OSCAR` for polytopes of dimension at most 3
+- We provide a step by step explanation of the algorithm with the example of the cube  
+- We created gallery of 3d models that show how different intersection bodies can look like when translating the original polytope
 
-Here are two of the 3d models that you can find in the gallery. The left one shown the intersection body of the centrally symmetric cube $$[-1,-1]^3$$, and the right one shows the intersection body of its translation $$[0,2]^3$$. [Click here so see them all!](https://mathrepo.mis.mpg.de/intersection-bodies/case-study.html)
+Here are two of the 3d models that you can find in the gallery. The first one shows the intersection body of the centrally symmetric cube $$[-1,-1]^3$$, and the second one shows the intersection body of its translation $$[0,2]^3$$. [Click here so see them all!](https://mathrepo.mis.mpg.de/intersection-bodies/case-study.html)
 
 <div class="row">
     <div class="col-sm mt mt-md">
