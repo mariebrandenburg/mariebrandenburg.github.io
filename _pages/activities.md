@@ -30,7 +30,7 @@ nav: true
         <img src="{{ project.img | relative_url }}" alt="project thumbnail">
         {% endif %}
         <div class="card-body">
-          <h2 class="card-title">{{ project.title }}</h2>
+          {{ project.title }}
           <p class="card-text">{{ project.description }}</p>
         </div>
       </div>
