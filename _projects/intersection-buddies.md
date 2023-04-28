@@ -1,14 +1,32 @@
 ---
 layout: page
-title: Intersection bodies of polytopes
-description: Leaving the realm of convexity.
-img: /assets/img/intersection_cube.png
+title: Hyperplane Sections of Polytopes
+description: Intersection bodies and best slices of polytopes.
+img: /assets/img/PermuComb.png #/assets/img/intersection_cube.png
 importance: 4
 category: research
 toc: true
 # mathrepo: https://mathrepo.mis.mpg.de/intersection-bodies
 # arxiv: https://arxiv.org/abs/2110.05996
 ---
+
+&nbsp; 
+
+## Affine Sections of Polytopes ##
+
+Coming soon!
+
+&nbsp;  
+
+
+##### References #####
+<div class="publications">
+  {% bibliography -f preprint --query @*[abbr=BDLM23] %}
+</div>
+
+&nbsp;
+
+## Intersection Bodies of Polytopes ##
 
 
 Intersection bodies of polytopes are geometric objects, which we can describe by using a variety of combinatorial and algebraic methods. This site describes previous and ongoing work regarding these objects. The first project that is described below focuses on (real) algebro-geometric aspects, where we describe their semialgebraic structure, which is governed by an underlying hyperplane arrangement. The second project below describes an ongoing follow-up work in which we consider the transformation of the intersection body under translation of the polytope, and pose the question of when an intersection body of a polytope is convex.

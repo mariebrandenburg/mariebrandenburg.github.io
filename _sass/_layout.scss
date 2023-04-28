@@ -201,3 +201,29 @@ h1 {
     width: 100%;
   }
 }
+
+
+/*****************************************************************************
+* Events
+*****************************************************************************/
+
+.events {
+  .grid-item {
+    width: 380px;
+    margin-bottom: 10px;
+    h2 {
+      font-size: 16px;
+    }
+    a {
+      text-align: left;
+      text-decoration: none; 
+      &:hover {
+        color: $theme-color;
+      }
+    }
+  }
+  .card img {
+    width: 100%;
+  }
+}
+

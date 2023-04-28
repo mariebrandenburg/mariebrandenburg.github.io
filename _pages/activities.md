@@ -12,6 +12,41 @@ nav: true
 
 ---
 
+### organizing
+
+---
+
+
+<div class="events grid">
+  {% assign sorted_projects = site.projects | sort: "importance" %}
+  {% for project in sorted_projects %}
+  {% if project.category == "event" %}
+  <div class="grid-item">
+    {% if project.redirect %}
+    	<a href="{{ project.redirect }}" target="_blank">
+    {% endif %}
+      <div class="card hoverable">
+        {% if project.img %}
+        <img src="{{ project.img | relative_url }}" alt="project thumbnail">
+        {% endif %}
+        <div class="card-body">
+          <h2 class="card-title">{{ project.title }}</h2>
+          <p class="card-text">{{ project.description }}</p>
+        </div>
+      </div>
+     {% if project.redirect %}
+    	</a>
+    {% endif %}
+  </div>
+{% endif %}
+{% endfor %}
+
+</div>
+
+&nbsp;
+
+---
+
 ### current and upcoming activities
 
 ---

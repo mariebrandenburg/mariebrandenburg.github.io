@@ -16,7 +16,7 @@ social: true
 ---
 
 
-I am a postdoc in the [Mathematical Machine Learning](https://www.mis.mpg.de/montufar/index.html) group of [Guido Montúfar](https://personal-homepages.mis.mpg.de/montufar/) at the Max Planck Institute for Mathematics in the Sciences. I am part of the DFG priority program [SPP 2298: Theoretical Foundations of Deep Learning - Combinatorial and Implicit Apporoaches to Deep Learning](https://www.foundationsofdl.de). 
+I am a postdoc in the [Mathematical Machine Learning](https://www.mis.mpg.de/montufar/index.html) group of [Guido Montúfar](https://personal-homepages.mis.mpg.de/montufar/) at the Max Planck Institute for Mathematics in the Sciences. I am part of the DFG priority program [SPP 2298: Theoretical Foundations of Deep Learning - Combinatorial and Implicit Apporoaches to Deep Learning](https://www.foundationsofdl.de). Beginning of 2024 I will join the group of [Katharina Jochemko](https://people.kth.se/~jochemko/) at KTH in Stockholm .
 
 My research interest lies in the intersection between Combinatorics and Discrete Geometry, Tropical Geometry and Algebraic Geometry. The core of my research lies in polyhedral geometry, with a wide range of applications such as Machine Learning, Optimization, Economics and Game Theory. Please see the [topics](/topics/) page for detailed expositions.
 
