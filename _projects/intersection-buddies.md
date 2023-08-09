@@ -14,7 +14,20 @@ toc: true
 
 ## Affine Sections of Polytopes ##
 
-Coming soon!
+Given a 3-dimensional cube, the intersection with an affine hyperplane is always a polygon with 3,4,5, or 6 vertices. But how can one understand the slices of a general polytope? And which slice is "the best," e.g., is the slice of maximal volume?
+
+In [[BDLM23]](#bdlm23) we study the structure of the set of all possible sections of a convex polytope by arbitrary affine hyperplanes. We encounter several subdivisions of the space of hyperplanes into polyhedral cells with the property that all hyperplane sections coming from the same cell form a class of equivalent polytopes. Computing all such classes of hyperplanes allows for the identification of the optimal section according to numerous possible combinatorial criteria.
+
+In each of these polyhedral cells, the volume of the hyperplane section can be expressed as a rational function, a quotient of two polynomials, in the parameters identifying the hyperplane. Finding the section of maximum volume thus turns into a global optimization problem over all polyhedral cells. With analogous strategies, one can extend these results further from hyperplane sections to orthogonal projections onto hyperplanes, and intersections with affine half-spaces. 
+
+In the article, we describe two approaches, which we call the rotational and the translational approach. In the rotational approach, we first choose the position of the origin, which induces the *cocircuit arrangement* $$\mathcal{R}_{\circlearrowleft}$$. Once we have fixed the origin, we consider central sections, i.e. intersections with hyperplane through the origin. This induces a second hyperplane arrangement $$\mathcal{C}_{\circlearrowleft}$$. Here is an animation which illustrates the interaction between these two arrangements for a fixed pentagon (grey polygon on the right side). The left picture shows the space of translation vectors, and black dot in the left picture represents a translation vector $$t$$ of the polytope $$P$$, and thus determines the position of the origin. The right picture shows the polytope (grey pentagon in the left picture), and the black dot in the right picture represents the origin.
+
+<img src="/assets/video/slicing-polytopes-rotation.gif" alt="rotational approach" width="100%"/>
+
+In the translational approach, we first choose a normal direction. These directions are organized by the *sweep arrangement* (or *lineup arrangement*) $$\mathcal{R}_{\uparrow}$$. Once we have fixed the normal direction, we consider intersections of the polytope with affine translates of the hyperplane that is orthogonal to the chosen normal vector. These affine hyperplanes can be organized into chambers of the *parallel arrangement* $$\mathcal {C}_{\uparrow}$$. The following animation shows the interplay between the two arrangement in the translational approach. The left picture shows the space of normal vectors, and the right picture shows the polytope (grey pentagon) and affine hyperplanes which are orthogonal to the normal vector $$u$$ (pink).
+
+<img src="/assets/video/slicing-polytopes-translation.gif" alt="rotational approach" width="100%"/>
+
 
 &nbsp;  
 
@@ -22,17 +35,24 @@ Coming soon!
 ##### References #####
 <div class="publications">
   {% bibliography -f preprint --query @*[abbr=BDLM23] %}
+  {% bibliography -f misc --query @*[abbr=nsf] %}
 </div>
+
+
+&nbsp;
+
+##### Slides of Talks #####
+
+|  | | |
+|  --:  | :-- | :-- |
+|  05 June 2023  &nbsp; | [Nonlinear Algebra Seminar at MPI MiS in Leipzig](https://www.mis.mpg.de/calendar/lectures/2023/abstract-35817.html) &nbsp;&nbsp; | [[Slides]](../../assets/pdf/slides/slices/23-06-nlalg.pdf) | 
 
 &nbsp;
 
 ## Intersection Bodies of Polytopes ##
 
 
-Intersection bodies of polytopes are geometric objects, which we can describe by using a variety of combinatorial and algebraic methods. This site describes previous and ongoing work regarding these objects. The first project that is described below focuses on (real) algebro-geometric aspects, where we describe their semialgebraic structure, which is governed by an underlying hyperplane arrangement. The second project below describes an ongoing follow-up work in which we consider the transformation of the intersection body under translation of the polytope, and pose the question of when an intersection body of a polytope is convex.
-
-
-The intersection body of a geometric object is constructed by measuring the volume of central hyperplane sections. More precisely, let $$P \subseteq \mathbb{R}^d$$ be a star body (for example a convex body or a polytope). Pick a unit direction $$u \in S^{d-1}$$ on the unit sphere, and let $$u^\perp \subseteq \mathbb{R}^d$$ denote the orthogonal hyperplane contiaining the origin. We measure the $$(d-1)$$-dimensional Euclidean volume $$\rho(u)$$ of the section $$P \cap u^\perp$$. The *intersection body* $$IP$$ of $$P$$ is defined to be the unique star body such that $$\rho(u)$$ is the distance from the origin to the boundary of $$IP$$ in direction $$u$$. This video illustrates this construction:
+Intersection bodies of polytopes are geometric objects, which we can describe by using a variety of combinatorial and algebraic methods. The intersection body of a geometric object is constructed by measuring the volume of central hyperplane sections. More precisely, let $$P \subseteq \mathbb{R}^d$$ be a star body (for example a convex body or a polytope). Pick a unit direction $$u \in S^{d-1}$$ on the unit sphere, and let $$u^\perp \subseteq \mathbb{R}^d$$ denote the orthogonal hyperplane contiaining the origin. We measure the $$(d-1)$$-dimensional Euclidean volume $$\rho(u)$$ of the section $$P \cap u^\perp$$. The *intersection body* $$IP$$ of $$P$$ is defined to be the unique star body such that $$\rho(u)$$ is the distance from the origin to the boundary of $$IP$$ in direction $$u$$. This video illustrates this construction:
 
 <center>
 <video width="100%" height="auto" autoplay loop>
@@ -45,16 +65,18 @@ The intersection body of a geometric object is constructed by measuring the volu
 
 Historically, intersection bodies arose from questions in convex analysis, and have thus mostly been studied with methods drawn from this area. They are closely related projection bodies and cross-section bodies. Richard Garnder has coined the term *Geometric Tomography* for the study of these objects, which he describes as "*the area of mathematics dealing with the retrieval of information about a geometric object from data about its sections, or projections, or both.*"
 
-&nbsp;  
 
-
-### Semialgebraic Intersection Bodies ###
-
-
-In general, intersection bodies are not semialgebraic sets. However, in the case of polytopes, we show that the intersection body of a polytope is always semialgebraic, and we provide an algorithm for its computation. We show that the regions of polynomiality of the boundary of $$IP$$ are defined by a hyperplane arrangement, which allows us to associate a zonotope to an intersection body of a polytope.  
+In general, intersection bodies are not semialgebraic sets. However, in the case of polytopes, we show that the intersection body of a polytope is always semialgebraic, and we provide an algorithm for its computation [[BBMS22]](#bbms22). We show that the regions of polynomiality of the boundary of $$IP$$ are defined by a hyperplane arrangement, which allows us to associate a zonotope to an intersection body of a polytope.  
 Furthermore, we consider the algebraic boundary of $$IP$$, which is the algebraic variety that is the (complex) Zariski closure of its Euclidean boundary. We compute the irreducible components of the algebraic boundary and provide an upper bound for the degree of these components.
 
-&nbsp;
+
+Although intersection bodies of polytopes inherit some of the combinatorial structures of the polytopes, they are not always convex sets. In fact, it is known that every star body has an affine translation such that its intersection body is non-convex. In the second article [[BM23]](#bm23), we consider the behaviour of an intersection body of a polytope when translating the polytope and pose the following question:
+
+> *For a fixed polytope $$P$$, what is the set of translations $$t$$ such that the intersection body $$I(P+t)$$ of $$P+t$$ is convex?*
+
+Surprisingly, it turns out that the intersection body of a polygon is convex if and only if the polygon is centrally symmetric and centered at the origin. Whe show that the same statement can be made for cubes of arbitrary dimensions, but not for general polytopes.
+
+&nbsp;  
 
 ##### Slides of Talks #####
 
@@ -71,53 +93,18 @@ Furthermore, we consider the algebraic boundary of $$IP$$, which is the algebrai
 
 ##### References #####
 <div class="publications">
+  {% bibliography -f preprint --query @*[abbr=BM23] %}
   {% bibliography -f published --query @*[abbr=BBMS22] %}
 </div>
 
-&nbsp;
+&nbsp;  
 
+##### Supplementary Material #####
 
-### Convex Intersection Bodies of Polygons ###
+*Gallery of 3D models*  
+[Click here](../intersection-bodies-gallery/) for a gallery of intersection bodies of translates of the 3-dimensional cube.
 
-Intersection bodies are not always convex. In fact, it is known that every star body has an affine translation such that its intersection body is non-convex. In a current work in progress together with [Chiara Meroni](https://merochia.wixsite.com/chiara-meroni) we consider the behaviour of an intersection body of a polytope when translating the polytope and pose the following question:
-
-> *For a fixed polytope $$P$$, what is the set of translations $$t$$ such that the intersection body $$I(P+t)$$ of $$P+t$$ is convex?*
-
-Our results on the 2-dimensional case can already be found in my PhD Thesis (Chapter 4.6). Surprisingly, it turns out that every polygon has only finitely many transpositions such that its intersection body is convex, and the number of such translations is at most 5. 
-
-We expect the results on the general case to appear on the arXiv soon.
-
-&nbsp;
-
-##### References #####
-<div class="publications">
-  {% bibliography -f thesis --query @*[abbr=phd] %}
-</div>
-
-&nbsp;
-
-
-### Supplementary Material ###
-
-Our [MathRepo page](https://mathrepo.mis.mpg.de/intersection-bodies/) contains lots of additional supplementary material:
+*MathRepo*  
+Our [MathRepo page](https://mathrepo.mis.mpg.de/intersection-bodies/) contains additional supplementary material:
 - We implemented an algorithm in `SageMath` to compute interseciton bodies of polytopes of any dimension. We also implemented this algorimth in `OSCAR` for polytopes of dimension at most 3
 - We provide a step by step explanation of the algorithm with the example of the cube  
-- We created gallery of 3d models that show how different intersection bodies can look like when translating the original polytope
-
-Here are two of the 3d models that you can find in the gallery. The first one shows the intersection body of the centrally symmetric cube $$[-1,-1]^3$$, and the second one shows the intersection body of its translation $$[0,2]^3$$. [Click here so see them all!](https://mathrepo.mis.mpg.de/intersection-bodies/case-study.html)
-
-<div class="row">
-    <div class="col-sm mt mt-md">
-        <div class="embed-responsive embed-responsive-1by1">
-            <iframe class="embed-responsive-item" src="../../assets/html/cube1.html"></iframe>
-        </div>
-    </div>
-    <div class="col-sm mt mt-md">
-        <div class="embed-responsive embed-responsive-1by1">
-            <iframe class="embed-responsive-item" src="../../assets/html/cube5.html"></iframe>
-        </div>
-    </div>
-</div>
-<p style="text-align: center;"> (We are 3d models, you can rotate us) </p>
-
-

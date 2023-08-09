@@ -51,7 +51,20 @@ Furthermore, we show that this condition is not always satisfied by providing ex
 
  The most famous equilibrium concept in game theory is the notion of *Nash Equilbrium*. This has been extensively studied since the 1950's, and it is known that the set of Nash equilibria of a fixed game can be arbitrarily complicated: in fact, a universality statement holds, saying that every (arbitrarily complicated) semialgebraic set can appear as the set of Nash equilibria of some game. At the same time, Nash equilibria assume that the choices of all players are made independenlty -- a feature which is arguably only the case in very special instances.
 
- A more general concept is the notion of *Correlated Equilibrium*, a notion which assumes that there exists some external device which gives a recommendation to all players, modelling a relation between their choices. The set of correlated equilibria of a fixed game is described by a linear program. That is, the set of such equilibria is given as the set of solutions of finitely many linear inequalities, and the set of solutions thus forms the *Correlated Equilibrium Polytope* of the game. The question that motivates us is the following.
+ A more general concept is the notion of *Correlated Equilibrium*, a notion which assumes that there exists some external device which gives a recommendation to all players, modelling a relation between their choices. The set of correlated equilibria of a fixed game is described by a linear program. That is, the set of such equilibria is given as the set of solutions of finitely many linear inequalities, and the set of solutions thus forms the *Correlated Equilibrium Polytope* of the game. The Nash equilibria of the game turn out to be the intersection of this polytope with the Segre variety inside the probability simplex. Below is a 3d model of the correlated equilibrium polytope (blue) inside the probability simplex (yellow) the Segre embedding of $$\mathbb{P}^1 \times \mathbb{P}^1$$ (orange), and the Nash equilibria (green). 
+
+ <div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-8">
+        <div class="embed-responsive embed-responsive-1by1">
+            <iframe class="embed-responsive-item" src="../../assets/html/correlated-equilibrium-polytope.html"></iframe>
+        </div>
+    </div>
+    <div class="col-sm-2"></div>
+ </div>
+
+ 
+ The question that motivates us is the following.
 
  > *Which combinatorial types of polytopes can arise as a correlated equilibrium polytope of a $$(d_1 \times \dots \times d_n)$$--game of $$n$$ players, where each player has a fixed number of $$d_i$$ strategies?*
 
