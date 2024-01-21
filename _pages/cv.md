@@ -1,6 +1,6 @@
 ---
 order: 7
 title: cv
-nav: true
+nav: false
 external_url: assets/pdf/CV.pdf
 ---

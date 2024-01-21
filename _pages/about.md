@@ -3,7 +3,7 @@ order: 0
 layout: about
 title: about
 permalink: /
-description:  <b> Postdoc at MPI MiS </b> <br> marie.brandenburg@mis.mpg.de | <a href="assets/pdf/CV.pdf">CV</a>
+description:  <b> Postdoc at MPI MiS </b> <br> marie.brandenburg@mis.mpg.de 
 
 profile:
   align: right
