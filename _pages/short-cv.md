@@ -20,7 +20,7 @@ nav: true
 	<table class="table table-sm table-borderless">
 		<tr>
 			<th scope="row">
-				soon
+				currently
 			</th>
 			<td>
 				  Postdoc at KTH Stockholm in the group of <a href="https://people.kth.se/~jochemko/">Katharina Jochemko</a>
