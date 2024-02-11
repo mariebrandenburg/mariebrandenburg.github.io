@@ -3,12 +3,12 @@ order: 0
 layout: about
 title: about
 permalink: /
-description:  <b> Postdoc at MPI MiS </b> <br> marie.brandenburg@mis.mpg.de 
+description:  <b> Postdoc at KTH </b> <br> marie.brandenburg@mis.mpg.de 
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: <strong>Office:</strong> R. G3 04, Inselstr. 22, 04103 Leipzig
+  address: <strong>Office:</strong> R. 3611, Lindstedtsvägen 25, 114 28 Stockholm
 
 events: false
 news: false
