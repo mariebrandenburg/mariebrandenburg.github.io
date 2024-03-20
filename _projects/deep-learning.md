@@ -10,7 +10,7 @@ category: other
 ---
 
 
-With my current position I am part of the DFG Priority Program [SPP 2298: Theoretical Foundations of Deep Learning](https://www.foundationsofdl.de) within the project on combinatorial and implicit apporoaches to deep learning. More information can be found on the website: 
+Until January 2024 I was part of the DFG Priority Program [SPP 2298: Theoretical Foundations of Deep Learning](https://www.foundationsofdl.de) within the project on combinatorial and implicit apporoaches to deep learning. More information can be found on the website: 
 
 <p align="center">
 	<a href="https://www.foundationsofdl.de">foundationsofdl.de</a>
