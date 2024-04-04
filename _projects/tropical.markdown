@@ -2,7 +2,7 @@
 layout: page
 title: Tropical Geometry and Positivity
 description: Tropical positivity, determinantal varieties, and polytropes.
-img: /assets/img/hexagon_icon.jpg
+img: /assets/img/starship2.png
 importance: 3
 category: research
 #github: https://github.com/mariebrandenburg/polynomials-of-polytropes

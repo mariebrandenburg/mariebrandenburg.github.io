@@ -220,9 +220,6 @@ h1 {
     a {
       text-align: left;
       text-decoration: none; 
-      &:hover {
-        color: $theme-color;
-      }
     }
   }
   .card img {

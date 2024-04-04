@@ -40,6 +40,9 @@ nav: true
 			            {% if event.location %}
 			              <br> <a class="events-location">{{ event.location }}</a>
 			            {% endif %}
+			            {% if event.talk %}
+			              <br> Talk: <a class="events-talk">{{ event.talk }}</a>
+			            {% endif %}
 		            </td>
 		        </tr>
 		    {% endif %}
@@ -76,6 +79,9 @@ nav: true
 			            {% endif %}
 			            {% if event.location %}
 			              <br> <a class="events-location">{{ event.location }}</a>
+			            {% endif %}
+			            {% if event.talk %}
+			              <br> Talk: <a class="events-talk">{{ event.talk }}</a>
 			            {% endif %}
 		            </td>
 		        </tr>
