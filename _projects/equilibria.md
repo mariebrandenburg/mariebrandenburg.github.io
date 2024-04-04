@@ -3,13 +3,17 @@ layout: page
 title: Economics and Game Theory
 description: The mathematics of making everybody happy. <br/>
 img: /assets/img/hammer.png
-importance: 3
+importance: 1
 category: research
 #arxiv: https://arxiv.org/abs/2107.08813
 ---
 
 In general, an equilibrium in a game (game theory) or auction (economics) is reached if each participating player or bidder conciders the outcome as most beneficial for their own (selfish) good compared to the possible alterntives. Mathematically, this can take various forms depending on the mathematical formulation of the problem, as well as the assumptions and variables that are taken into account. I have worked on two different projects involving concepts of equilibria. In both cases we relate the concept of equilibrium with polyhedral geometry.
 
+* [Competitive Equilibrium in Economics](#competitive-equilibrium-in-economics)
+* [Correlated Equilibrium in Game Theory](#correlated-equilibrium-in-game-theory)
+
+&nbsp;
 
 ### Competitive Equilibrium in Economics ###
 

@@ -3,11 +3,12 @@ layout: page
 title: Tropical Geometry and Positivity
 description: Tropical positivity, determinantal varieties, and polytropes.
 img: /assets/img/hexagon_icon.jpg
-importance: 4
+importance: 3
 category: research
 #github: https://github.com/mariebrandenburg/polynomials-of-polytropes
 #arxiv: https://arxiv.org/abs/2006.01920
 ---
+
 
 This site collects the projects concerning combinatorial and polyhedral aspects in tropical geometry, with a particular view towards positivity. In the first project which is described below, we consider combinatorial aspects of positive tropicalization, and study the positive part of determinantal varieties. In the second project we apply methods from toric intersection theory to compute multivariate volume and Ehrhart polynomials of polytropes (also known as alcoved polytopes of type A), which arise in tropoical geometry as those tropical polytopes which are also clasically convex.
 

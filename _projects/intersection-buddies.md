@@ -5,10 +5,12 @@ description: Intersection bodies and best slices of polytopes.
 img: /assets/img/PermuComb.png #/assets/img/intersection_cube.png
 importance: 4
 category: research
-toc: true
 # mathrepo: https://mathrepo.mis.mpg.de/intersection-bodies
 # arxiv: https://arxiv.org/abs/2110.05996
 ---
+
+* [Affine Sections of Polytopes](#affine-sections-of-polytopes)
+* [Intersection Bodies of Polytopes](#intersection-bodies-of-polytopes)
 
 &nbsp; 
 
