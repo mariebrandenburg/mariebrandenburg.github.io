@@ -2,8 +2,8 @@
 layout: page
 title: Lattice Points and Lattice Polytopes
 description: M-convex sets, Ehrhart-polynomials and the Integer Decomposition Property.
-img: /assets/img/hexagon_icon.jpg
-importance: 5
+img: /assets/img/lattice-polytopes.webp
+importance: 4
 category: research
 # mathrepo: https://mathrepo.mis.mpg.de/intersection-bodies
 # arxiv: https://arxiv.org/abs/2110.05996

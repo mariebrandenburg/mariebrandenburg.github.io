@@ -3,7 +3,7 @@ layout: page
 title: Hyperplane Sections of Polytopes
 description: Intersection bodies and best slices of polytopes.
 img: /assets/img/PermuComb.png #/assets/img/intersection_cube.png
-importance: 4
+importance: 5
 category: research
 # mathrepo: https://mathrepo.mis.mpg.de/intersection-bodies
 # arxiv: https://arxiv.org/abs/2110.05996

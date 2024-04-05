@@ -18,10 +18,10 @@ coming soon!
 
 |  | | |
 |  --:  | :-- | :-- |
-|  22 June 2022  &nbsp; | [ECCO](https://ecco2020.combinatoria.co/home-english)  | [[Slides]](../../assets/pdf/slides/tropical-determinantal/22-06-ecco.pdf) | 
-| 26 July 2022 &nbsp; | [MOSAiC](https://dermenjian.com/mosaic/)    | [[Slides]](../../assets/pdf/slides/tropical-determinantal/22-07-mosaic.pdf)    | 
-|  11 August 2022  &nbsp; | Copenhagen-Jerusalem Combinatorics Seminar &nbsp;&nbsp; | [[Slides]](../../assets/pdf/slides/tropical-determinantal/22-08-copenhagen.pdf) | 
-|  5 September 2022 &nbsp;  | [Geometry meets Combinatorics in Bielefeld](https://www.math.uni-bielefeld.de/geocomb/) | [[Slides]](../../assets/pdf/slides/tropical-determinantal/22-09-bielefeld.pdf) | 
+|  22 June 2022  &nbsp; | []()  | [[Slides]](../../assets/pdf/slides/ml-tropical/24-03-coworkspace.pdf) | 
+| 26 July 2022 &nbsp; | [MOSAiC](https://dermenjian.com/mosaic/)    | [[Slides]](../../assets/pdf/slides/tropical-determinantal/24-02-kth.pdf)    | 
+|  11 August 2022  &nbsp; | Copenhagen-Jerusalem Combinatorics Seminar &nbsp;&nbsp; | [[Slides]](../../assets/pdf/slides/tropical-determinantal/24-01-mfo.pdf) | 
+|  5 September 2022 &nbsp;  | [Geometry meets Combinatorics in Bielefeld](https://www.math.uni-bielefeld.de/geocomb/) | [[Slides]](../../assets/pdf/slides/tropical-determinantal/23-11-spp.pdf) | 
 
 
 &nbsp;  
