@@ -10,7 +10,10 @@ category: research
 ---
 
 
-This site collects the projects concerning combinatorial and polyhedral aspects in tropical geometry, with a particular view towards positivity. In the first project which is described below, we consider combinatorial aspects of positive tropicalization, and study the positive part of determinantal varieties. In the second project we apply methods from toric intersection theory to compute multivariate volume and Ehrhart polynomials of polytropes (also known as alcoved polytopes of type A), which arise in tropoical geometry as those tropical polytopes which are also clasically convex.
+This site collects the projects concerning combinatorial and polyhedral aspects in tropical geometry, with a particular view towards positivity. 
+
+* [Tropical Positivity and Determinantal Varieties](#tropical-positivity-and-determinantal-varieties)
+* [Multivariate Polynomials of Polytropes](#multivariate-polynomials-of-polytropes)
 
 &nbsp;
 
@@ -36,10 +39,13 @@ We develop criteria for characterizing their positive part, with focus on the st
 
 |  | | |
 |  --:  | :-- | :-- |
-|  22 June 2022  &nbsp; | [ECCO](https://ecco2020.combinatoria.co/home-english)  | [[Slides]](../../assets/pdf/slides/tropical-determinantal/22-06-ecco.pdf) | 
-| 26 July 2022 &nbsp; | [MOSAiC](https://dermenjian.com/mosaic/)    | [[Slides]](../../assets/pdf/slides/tropical-determinantal/22-07-mosaic.pdf)    | 
-|  11 August 2022  &nbsp; | Copenhagen-Jerusalem Combinatorics Seminar &nbsp;&nbsp; | [[Slides]](../../assets/pdf/slides/tropical-determinantal/22-08-copenhagen.pdf) | 
 |  5 September 2022 &nbsp;  | [Geometry meets Combinatorics in Bielefeld](https://www.math.uni-bielefeld.de/geocomb/) | [[Slides]](../../assets/pdf/slides/tropical-determinantal/22-09-bielefeld.pdf) | 
+|  11 August 2022  &nbsp; | Copenhagen-Jerusalem Combinatorics Seminar &nbsp;&nbsp; | [[Slides]](../../assets/pdf/slides/tropical-determinantal/22-08-copenhagen.pdf) | 
+| 26 July 2022 &nbsp; | [MOSAiC](https://dermenjian.com/mosaic/)    | [[Slides]](../../assets/pdf/slides/tropical-determinantal/22-07-mosaic.pdf)    | 
+|  22 June 2022  &nbsp; | [ECCO](https://ecco2020.combinatoria.co/home-english)  | [[Slides]](../../assets/pdf/slides/tropical-determinantal/22-06-ecco.pdf) | 
+
+
+
 
 
 &nbsp;  

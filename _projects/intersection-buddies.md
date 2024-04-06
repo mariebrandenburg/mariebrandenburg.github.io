@@ -11,6 +11,7 @@ category: research
 
 * [Affine Sections of Polytopes](#affine-sections-of-polytopes)
 * [Intersection Bodies of Polytopes](#intersection-bodies-of-polytopes)
+  * [Supplementary Material (including a gallery of 3d models)](#supplementary-material)
 
 &nbsp; 
 
@@ -47,6 +48,8 @@ In the translational approach, we first choose a normal direction. These directi
 
 |  | | |
 |  --:  | :-- | :-- |
+|  13 March 2024  &nbsp; | [Combinatorics Seminar at KTH in Stockholm](https://www.kth.se/math/kalender/kombinatorik/marie-brandenburg-how-to-slice-a-polytope-1.1313049?date=2024-03-13&orgdate=2024-03-01&length=1&orglength=31) &nbsp;&nbsp; | [[Slides]](../../assets/pdf/slides/slices/24-03-kth.pdf) | 
+|  23 November 2023  &nbsp; | [Discrete Geometry Seminar at FU Berlin](https://www.mi.fu-berlin.de/en/math/groups/discgeom/Seminar/index.html) &nbsp;&nbsp; | [[Slides]](../../assets/pdf/slides/slices/23-11-villa.pdf) | 
 |  05 June 2023  &nbsp; | [Nonlinear Algebra Seminar at MPI MiS in Leipzig](https://www.mis.mpg.de/calendar/lectures/2023/abstract-35817.html) &nbsp;&nbsp; | [[Slides]](../../assets/pdf/slides/slices/23-06-nlalg.pdf) | 
 
 &nbsp;
@@ -84,10 +87,13 @@ Surprisingly, it turns out that the intersection body of a polygon is convex if 
 
 |  | | |
 |  --:  | :-- | :-- |
-|  18 November 2021  &nbsp; | [Nonlinear Algebra Seminar at MPI MiS in Leipzig](https://www.mis.mpg.de/calendar/lectures/2021/abstract-33274.html)  | [[Slides]](../../assets/pdf/slides/intersection-bodies/21-11-nlalg.pdf) | 
-| 30 November 2021 &nbsp; | [Women in Algebra and Symbolic Computation II](https://www.computeralgebra.de/sfb/our-news/women-in-algebra-and-symbolic-computations-ii/) &nbsp;&nbsp;   | [[Slides]](../../assets/pdf/slides/intersection-bodies/21-11-bad-duerkheim.pdf)    | 
-|  14 February 2022  &nbsp; | [Colloquium of Facets of Complexity in Berlin](http://www.facetsofcomplexity.de/monday/20220214-C-Brandenburg.html) | [[Slides]](../../assets/pdf/slides/intersection-bodies/22-02-foc.pdf) | 
 |  23 March 2022 &nbsp;  | [Combinatorial Coworkingspace](https://www.combinatorial-cowork.space) | [[Slides]](../../assets/pdf/slides/intersection-bodies/22-03-coworking-space.pdf) | 
+|  14 February 2022  &nbsp; | [Colloquium of Facets of Complexity in Berlin](http://www.facetsofcomplexity.de/monday/20220214-C-Brandenburg.html) | [[Slides]](../../assets/pdf/slides/intersection-bodies/22-02-foc.pdf) | 
+| 30 November 2021 &nbsp; | [Women in Algebra and Symbolic Computation II](https://www.computeralgebra.de/sfb/our-news/women-in-algebra-and-symbolic-computations-ii/) &nbsp;&nbsp;   | [[Slides]](../../assets/pdf/slides/intersection-bodies/21-11-bad-duerkheim.pdf)    | 
+|  18 November 2021  &nbsp; | [Nonlinear Algebra Seminar at MPI MiS in Leipzig](https://www.mis.mpg.de/calendar/lectures/2021/abstract-33274.html)  | [[Slides]](../../assets/pdf/slides/intersection-bodies/21-11-nlalg.pdf) | 
+
+
+
 
 
 &nbsp;  

@@ -33,10 +33,10 @@ Furthermore, we show that this condition is not always satisfied by providing ex
 
 |  | | |
 |  --:  | :-- | :-- |
-|  4 March 2022  &nbsp; | [Mini-Symposium on Lattice Polytopes](https://sites.google.com/view/mini-symposium-lattice-poly-22/home)  | [[Slides]](../../assets/pdf/slides/competitive-equilibrium/22-03-mini-symposium.pdf) | 
-| 16 March 2022 &nbsp; | [DM/G-Seminar at TU Berlin](https://www.math.tu-berlin.de/fachgebiete_ag_diskalg/fg_diskrete_mathematik_geometrie/v_menue/veranstaltungen/v_menue/veranstaltungen/)    | [[Slides]](../../assets/pdf/slides/competitive-equilibrium/22-03-dmg-seminar.pdf)    | 
-|  4 July 2022  &nbsp; | [Discrete Math Days](https://dmd2022.unican.es) | [[Slides]](../../assets/pdf/slides/competitive-equilibrium/22-07-dmd.pdf) | 
 |  5 October 2022 &nbsp;  | MOR Seminar at University of Twente &nbsp;&nbsp;| [[Slides]](../../assets/pdf/slides/competitive-equilibrium/22-10-twente.pdf) | 
+|  4 July 2022  &nbsp; | [Discrete Math Days](https://dmd2022.unican.es) | [[Slides]](../../assets/pdf/slides/competitive-equilibrium/22-07-dmd.pdf) | 
+| 16 March 2022 &nbsp; | [DM/G-Seminar at TU Berlin](https://www.math.tu-berlin.de/fachgebiete_ag_diskalg/fg_diskrete_mathematik_geometrie/v_menue/veranstaltungen/v_menue/veranstaltungen/)    | [[Slides]](../../assets/pdf/slides/competitive-equilibrium/22-03-dmg-seminar.pdf)    | 
+|  4 March 2022  &nbsp; | [Mini-Symposium on Lattice Polytopes](https://sites.google.com/view/mini-symposium-lattice-poly-22/home)  | [[Slides]](../../assets/pdf/slides/competitive-equilibrium/22-03-mini-symposium.pdf) | 
 
 
 &nbsp;  
