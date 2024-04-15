@@ -78,7 +78,7 @@ Furthermore, we investigate certain oriented matroid strata. Restricting the str
 
 ##### References #####
 <div class="publications">
-  {% bibliography -f published --query @*[abbr=BHP22] %}
+  {% bibliography -f published --query @*[abbr=BHP24] %}
 </div>
 
 &nbsp;  

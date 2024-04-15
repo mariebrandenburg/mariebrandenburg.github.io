@@ -75,7 +75,7 @@ In general, intersection bodies are not semialgebraic sets. However, in the case
 Furthermore, we consider the algebraic boundary of $$IP$$, which is the algebraic variety that is the (complex) Zariski closure of its Euclidean boundary. We compute the irreducible components of the algebraic boundary and provide an upper bound for the degree of these components.
 
 
-Although intersection bodies of polytopes inherit some of the combinatorial structures of the polytopes, they are not always convex sets. In fact, it is known that every star body has an affine translation such that its intersection body is non-convex. In the second article [[BM23]](#bm23), we consider the behaviour of an intersection body of a polytope when translating the polytope and pose the following question:
+Although intersection bodies of polytopes inherit some of the combinatorial structures of the polytopes, they are not always convex sets. In fact, it is known that every star body has an affine translation such that its intersection body is non-convex. In the second article [[BM24]](#bm24), we consider the behaviour of an intersection body of a polytope when translating the polytope and pose the following question:
 
 > *For a fixed polytope $$P$$, what is the set of translations $$t$$ such that the intersection body $$I(P+t)$$ of $$P+t$$ is convex?*
 
@@ -101,8 +101,7 @@ Surprisingly, it turns out that the intersection body of a polygon is convex if 
 
 ##### References #####
 <div class="publications">
-  {% bibliography -f preprint --query @*[abbr=BM23] %}
-  {% bibliography -f published --query @*[abbr=BBMS22] %}
+  {% bibliography -f published --query @*[abbr=BBMS22] | @*[abbr=BM24] %}
 </div>
 
 &nbsp;  
