@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Marie-Charlotte Brandenburg | Lattice Points and Lattice Polytopes</title>
+<meta name="description" content="">
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.17.0/css/mdb.min.css" integrity="sha256-/SwJ2GDcEt5382i8zqDwl36VJGECxEoIcBIuoLmLR4g=" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"  integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/projects/lattice-points/">
+
+<!-- Open Graph -->
+
+
+<!-- MathJax-->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  </head>
+
+  <body class="fixed-top-nav sticky-bottom-footer">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light bg-white navbar-expand-md fixed-top">
+    <div class="container">
+      
+        
+        <a class="navbar-brand title font-weight-lighter" href="/">Marie-Charlotte <span class="font-weight-bold">Brandenburg</span></a>
+      
+      <!-- Navbar Toogle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a 
+                class="nav-link" 
+                href="/topics/"
+              >
+                topics
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a 
+                class="nav-link" 
+                href="/activities/"
+              >
+                activities
+                
+              </a>
+          </li>
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a 
+                class="nav-link" 
+                href="/publications/"
+              >
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a 
+                class="nav-link" 
+                href="/cv/"
+              >
+                cv
+                
+              </a>
+          </li>
+          
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Lattice Points and Lattice Polytopes</h1>
+    <p class="post-description">M-convex sets, Ehrhart-polynomials and the Integer Decomposition Property.</p>
+  </header>
+
+  <article>
+    <p>This site collects projects concerning lattice polytopes, i.e., polytopes with vertices contained in the lattice \(\mathbb Z^d\), and properties of the lattice points inside such polytopes.</p>
+
+<ul>
+  <li><a href="#quotients-of-m-convex-sets-and-m-convex-functions">Quotients of M-convex sets and M-convex functions</a></li>
+  <li><a href="#multivariate-polynomials-of-polytropes">Multivariate Polynomials of Polytropes</a></li>
+  <li><a href="#competitive-equilibrium-in-economics">Competitive Equilibrium in Economics</a></li>
+</ul>
+
+<p> </p>
+
+<h3 id="quotients-of-m-convex-sets-and-m-convex-functions">Quotients of M-convex sets and M-convex functions</h3>
+
+<p>A <em>matroid</em> is the combinatorial abstraction of an arrangement of 1-dimensional linear spaces spanning a common subspace. A convenient way to define matroids is through its <em>matroid polytope</em>, which is a lattice polytope with edges in directions \(e_i - e_j\) contained inside the unit cube \([0,1]^d\). Relaxing the condition on the cube to be \([0,k]^d\) for \(k \in \mathbb Z_{\geq 0}\) yields the definition of a <em>k-polymatroid:</em> The lattice points in a polytope with edge directions \(e_i-e_j\) can be interpreted as arrangements of \(d\) subspaces of dimension at most \(k\). An even more genaral class is given by <em>M-conex sets</em>, which is the sets of lattice points in any lattice polytope with edges in directions \(e_i - e_j\). Such a polytope is called a lattice <em>generalized permotohedra</em>. This class of polytopes and the lattice points therein can be described in many different ways, and we focus on 2 main points of view:</p>
+
+<ul>
+  <li>a lattice generalized permutohedron is a polytope whose support function is a submodular set function \(p: 2^{[n]} \to \mathbb Z\), i.e., a function such that for all \(A, B \subseteq [n]\) holds \(p(A) + p(B) \geq p(A \cup B) + p (A \cap B)\)</li>
+  <li>the set of lattice points \(P \subset \mathbb Z^n\) in a lattice generalized permutohedron satisfy the following exchange property: for any \(x, y \in P\) and any \(i \in [n]\) such that \(x_i &gt; y_i\) there exists a \(j \in [n]\) such that \(x_j &lt; y_j\) and \(x - e_i + e_j \in P, y + e_i - e_j \in P\).</li>
+</ul>
+
+<p>For the case of matroids, the submodular set function is the rank function of the matroid, while the exange property is preciely the basis exchange axiom for matroids.</p>
+
+<p>The notion of <em>matroid quotients</em> is the combinatorial model of projections. In terms of linear spaces, it can be thought of as two linear subspaces where one is contained in the other.
+As usually in matroid theory, there are many ways to define a matroid quotients, and one way is in terms of compliant rank functions:
+If \(M, N\) are matroids on the ground set \([n]\), then to matroids form a quotient if for all \(X \subseteq Y \subseteq [n]\) the inequality
+\(\operatorname{rk}_N(Y) -  \operatorname{rk}_N(X) \leq \operatorname{rk}_M(Y) -  \operatorname{rk}_M(X)\).</p>
+
+<p>In <a href="#bls24">[BLS24]</a> we a generalize this notion to M-convex sets, and give a list of 10 equivalent characterizations of M-convex set quotiens. The first key equivalences are</p>
+
+<p><em>Let \(p,q: 2^{[n]} \to \mathbb Z\) be two submodular set functions, and \(P,Q\) be the assiciated M-convex sets. Then the following are equivalent.</em></p>
+<ul>
+  <li><em>the two functions are compliant: \(q(Y) - q(X) \leq p(Y) - p(X)\)</em></li>
+  <li><em>\(P\) and \(Q\) satisfy the exchange property: for any \(x \in Q, y \in P\) and any \(i \in [n]\) such that \(x_i &gt; y_i\) there exists a \(j \in [n]\) such that \(x_j &lt; y_j\) and \(x - e_i + e_j \in Q, y + e_i - e_j \in P\).</em></li>
+  <li><em>\(P\) and \(Q\) are the top and bottom layers of an</em> M\(^\natural\)<em>-convex set, the lattice points in a</em> generalized polymatroid</li>
+</ul>
+
+<p>The full list includes many more characterizations, including a novel construction of a monoid of linking sets, which vastly generalizes the classical construction of linking systems. Furthermore, we present the first attempt for a extension of this theory for M-convex functions. An M-convex function can be seen as a lifting function on an M-convex set, which subdivides the associated generalized permuohedron into generalized permutohedra. It can also be expressed in terms of an exchange property, however, there is no (straightforward) characterization which resembles the characterization via submodular functions as in the case of M-convex sets. Instead of a list of equivalences, we thus present a hierachy of properties. Two of them can be stated in analogy to the ones above:</p>
+
+<p><em>Let \(f,g: \mathbb Z^{[n]} \to \mathbb R \cup \{ \infty \}\). Then 2. implies 1. with the following statements:</em></p>
+
+<ol>
+  <li><em>\(f\) and \(g\) satisfy the exchange property: for any \(x \in Q, y \in P\) and any \(i \in [n]\) such that \(x_i &gt; y_i\) there exists a \(j \in [n]\) such that \(x_j &lt; y_j\) and \(g(x) + f(y) \geq g(x - e_i + e_j) + f(y + e_i - e_j)\).</em></li>
+  <li><em>\(f\) and \(g\) are the top and bottom layers of an</em> M\(^\natural\)<em>-convex set</em></li>
+</ol>
+
+<p> </p>
+
+<h5 id="references">References</h5>
+<div class="publications">
+  <ol class="bibliography"><li><div class="row">
+  <div class="col-md-3 abbr img-responsive" style="margin: 0 auto;">
+  
+    
+      <a href="http://arxiv.org/abs/2403.07751"><img width="120px" src="/assets/img/thumbnails/mconvex.png" /></a>
+    
+  
+  </div>
+
+  <div id="bls24" class="col-md-9">
+    
+      <span class="title">Quotients of M-convex sets and M-convex functions</span>
+      <span class="author">
+        
+          with
+          
+            
+              
+                <!-- <em>Marie-Charlotte Brandenburg</em>, -->
+              
+            
+          
+            
+              
+                
+                  <a href="https://lohomath.github.io" target="_blank">Georg Loho</a>,
+                
+              
+            
+          
+            
+              
+                
+                  and <a href="https://sites.google.com/view/bsmithmathematics/" target="_blank">Ben Smith</a>.
+                
+              
+            
+          
+        
+      </span>
+      <span class="periodical">
+      
+        
+      
+      
+      
+        
+         2024.
+      
+      
+      </span>
+    
+
+    <span class="links">
+    
+      [<a class="abstract">abstract</a>]
+    
+    
+    
+      [<a href="http://arxiv.org/abs/2403.07751" target="_blank">arXiv</a>]
+    
+    
+    
+    
+    
+    
+    
+    
+    </span>
+
+    <!-- Hidden abstract block -->
+    
+    <span class="abstract hidden">
+      <p>We unify the study of quotients of matroids, polymatroids, valuated matroids and strong maps of submodular functions in the framework of Murota’s discrete convex analysis. As a main result, we compile a list of ten equivalent characterizations of quotients for M-convex sets, generalizing existing formulations for (poly)matroids and submodular functions. We also initiate the study of quotients of M-convex functions, constructing a hierarchy of four separate characterizations. Our investigations yield new insights into the fundamental operation of induction, as well as the structure of linking sets and linking functions, which are generalizations of linking systems and bimatroids.</p>
+    </span>
+    
+    
+  </div>
+</div></li></ol>
+</div>
+
+<p> <br />
+ </p>
+
+<h3 id="multivariate-polynomials-of-polytropes">Multivariate Polynomials of Polytropes</h3>
+
+<p>We compute volume, Ehrhart \(h^\ast\)-polynomials of alcoved polytopes of type A.<br />
+This is listed under <a href="../tropical/#multivariate-polynomials-of-polytropes">→ Tropical Geometry and Positivity</a>.</p>
+
+<p> <br />
+ </p>
+
+<h3 id="competitive-equilibrium-in-economics">Competitive Equilibrium in Economics</h3>
+
+<p>We consider properties of lattice points of the correlation polytope, which are weaker versions of the Integer Decomposition Property.<br />
+This is listed under <a href="../equilibria/#competitive-equilibrium-in-economics">→ Economics and Game Theory</a>.</p>
+
+<p> <br />
+ </p>
+
+
+  </article>
+
+</div>
+
+    </div>
+
+  </body>
+
+  <!-- Load Core and Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.xyz/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+
+
+
+<!-- Load Mansory & imagesLoaded -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/masonry/4.2.2/masonry.pkgd.min.js" integrity="" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+
+<!-- Project Cards Layout -->
+<script type="text/javascript">
+  // Init Masonry
+  var $grid = $('.grid').masonry({
+    gutter: 10,
+    horizontalOrder: true,
+    itemSelector: '.grid-item',
+  });
+  // layout Masonry after each image loads
+  $grid.imagesLoaded().progress( function() {
+    $grid.masonry('layout');
+  });
+</script>
+
+
+
+
+
+<!-- Google Analytics -->
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-188142934-1', 'auto');
+ga('send', 'pageview');
+</script>
+
+
+
+</html>
