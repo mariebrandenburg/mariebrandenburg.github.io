@@ -3,7 +3,7 @@ order: 0
 layout: about
 title: about
 permalink: /
-description:  <b> Postdoc at KTH </b> | mcbra@kth.se 
+description:  <b> Postdoc at KTH </b> | brandenburg@kth.se 
 
 profile:
   align: right

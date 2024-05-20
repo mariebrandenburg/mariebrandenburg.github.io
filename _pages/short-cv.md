@@ -23,7 +23,7 @@ nav: true
 				currently
 			</th>
 			<td>
-				  Postdoc at KTH Stockholm in the group of <a href="https://people.kth.se/~jochemko/">Katharina Jochemko</a>
+				  Postdoc at KTH Stockholm in the <a href="https://www.kth.se/math/act/comb">Combinatorics Group</a> and the group of <a href="https://people.kth.se/~jochemko/">Katharina Jochemko</a>
 			</td>
 		</tr>
 		<tr>
@@ -31,7 +31,7 @@ nav: true
 				2023
 			</th>
 			<td>
-				  Postdoc at MPI MiS (Leipzig) in the <a href="https://www.mis.mpg.de/montufar/index.html">Math Machine Learning group</a> of <a href="https://personal-homepages.mis.mpg.de/montufar/">Guido Montúfar</a> 
+				  Postdoc at MPI MiS (Leipzig) in the <a href="https://www.mis.mpg.de/montufar/index.html">Math Machine Learning Group</a> of <a href="https://personal-homepages.mis.mpg.de/montufar/">Guido Montúfar</a> 
 			</td>
 		</tr>
 		<tr>
