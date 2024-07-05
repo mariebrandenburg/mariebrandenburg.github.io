@@ -4,7 +4,7 @@ layout: page
 permalink: /publications/
 title: publications
 description: 
-years_preprint: [2024, 2023]
+years_preprint: [2024]
 years_publication: [2024, 2023, 2022, 2021]
 years_thesis: [2023,2019,2016]
 nav: true

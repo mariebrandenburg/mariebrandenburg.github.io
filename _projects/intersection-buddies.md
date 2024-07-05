@@ -19,7 +19,7 @@ category: research
 
 Given a 3-dimensional cube, the intersection with an affine hyperplane is always a polygon with 3,4,5, or 6 vertices. But how can one understand the slices of a general polytope? And which slice is "the best," e.g., is the slice of maximal volume?
 
-In [[BDLM23]](#bdlm23) we study the structure of the set of all possible sections of a convex polytope by arbitrary affine hyperplanes. We encounter several subdivisions of the space of hyperplanes into polyhedral cells with the property that all hyperplane sections coming from the same cell form a class of equivalent polytopes. Computing all such classes of hyperplanes allows for the identification of the optimal section according to numerous possible combinatorial criteria.
+In [[BDLM24]](#bdlm24) we study the structure of the set of all possible sections of a convex polytope by arbitrary affine hyperplanes. We encounter several subdivisions of the space of hyperplanes into polyhedral cells with the property that all hyperplane sections coming from the same cell form a class of equivalent polytopes. Computing all such classes of hyperplanes allows for the identification of the optimal section according to numerous possible combinatorial criteria.
 
 In each of these polyhedral cells, the volume of the hyperplane section can be expressed as a rational function, a quotient of two polynomials, in the parameters identifying the hyperplane. Finding the section of maximum volume thus turns into a global optimization problem over all polyhedral cells. With analogous strategies, one can extend these results further from hyperplane sections to orthogonal projections onto hyperplanes, and intersections with affine half-spaces. 
 
@@ -37,7 +37,7 @@ In the translational approach, we first choose a normal direction. These directi
 
 ##### References #####
 <div class="publications">
-  {% bibliography -f preprint --query @*[abbr=BDLM23] %}
+  {% bibliography -f published --query @*[abbr=BDLM24] %}
   {% bibliography -f misc --query @*[abbr=nsf] %}
 </div>
 
