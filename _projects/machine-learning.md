@@ -42,7 +42,7 @@ In [[BLM24]](#blm24) we characterize the analogues of these constructions when e
 
 ##### References #####
 <div class="publications">
-  {% bibliography -f preprint --query @*[abbr=BLM24] %}
+  {% bibliography -f published --query @*[abbr=BLM24] %}
 </div>
 
 &nbsp;  

@@ -149,7 +149,7 @@ scholar:
   details_layout: bibtex.html
   details_link: Details
 
-  bibtex_skip_fields: ["abstract", "abbr", "arxiv", "slides", "url", "bibtexshow", "month_numeric", "thumbnail", "supp"]
+  bibtex_skip_fields: ["abstract", "abbr", "arxiv", "slides", "bibtexshow", "month_numeric", "thumbnail", "supp"]
   query: "@*"
 
 # -----------------------------------------------------------------------------
