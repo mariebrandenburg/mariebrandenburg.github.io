@@ -23,6 +23,14 @@ nav: true
 				currently
 			</th>
 			<td>
+				  Juniorprofessor for Combinatorics at RUB
+			</td>
+		</tr>
+		<tr>
+			<th scope="row">
+				2024
+			</th>
+			<td>
 				  Postdoc at KTH Stockholm in the <a href="https://www.kth.se/math/act/comb">Combinatorics Group</a> and the group of <a href="https://people.kth.se/~jochemko/">Katharina Jochemko</a>
 			</td>
 		</tr>
