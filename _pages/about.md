@@ -9,6 +9,7 @@ profile:
   align: right
   image: prof_pic.jpg
   address: <strong>Office:</strong> Building IB, Floor E2, Room 155
+  copyright: RUB, Marquard
 
 events: false
 news: false
