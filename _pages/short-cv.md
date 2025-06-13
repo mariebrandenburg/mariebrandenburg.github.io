@@ -7,14 +7,6 @@ description:
 nav: true
 ---
 
-[Click here for my full CV.](/assets/pdf/CV.pdf)
-
-&nbsp;
-
----
-
-## short cv
----
 
 <div class="table-responsive">
 	<table class="table table-sm table-borderless">
@@ -31,7 +23,7 @@ nav: true
 				2024
 			</th>
 			<td>
-				  Postdoc at KTH Stockholm in the <a href="https://www.kth.se/math/act/comb">Combinatorics Group</a> and the group of <a href="https://people.kth.se/~jochemko/">Katharina Jochemko</a>
+				  Postdoc at KTH (Stockholm) in the <a href="https://www.kth.se/math/act/comb">Combinatorics Group</a> and the group of <a href="https://people.kth.se/~jochemko/">Katharina Jochemko</a>
 			</td>
 		</tr>
 		<tr>

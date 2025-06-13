@@ -7,11 +7,13 @@ description:
 nav: true
 ---
 
-This site gives an overview over the various topics I have worked on and activities I am involved in.
+<!-- This site gives an overview over the various topics I have worked on and activities I am involved in.
 
 &nbsp;
 
+
 ## Research ##
+-->
 (Click on a tile for more information, slides of talks or publications)
 {: style="color:gray; font-size: 90%; text-align: center;"}
 
@@ -64,7 +66,7 @@ This site gives an overview over the various topics I have worked on and activit
 
 </div>
 
-
+<!--
 &nbsp;  
 
 ## Network and Math Communication ##
@@ -119,4 +121,4 @@ This site gives an overview over the various topics I have worked on and activit
 {% endfor %}
 
 </div>
-
+-->
