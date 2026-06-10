@@ -4,7 +4,7 @@ title: Economics and Game Theory
 description: The mathematics of making everybody happy. <br/>
 img: /assets/img/hammer.png
 importance: 1
-category: research
+category: 
 #arxiv: https://arxiv.org/abs/2107.08813
 ---
 

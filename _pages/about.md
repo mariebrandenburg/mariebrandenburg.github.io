@@ -18,4 +18,4 @@ social: true
 
 
 I am a Juniorprofessor for Combinatorics at Ruhr-Universität Bochum.
-My research interest lies in the intersection between Combinatorics and Discrete Geometry, Tropical Geometry and Algebraic Geometry. The core of my research lies in polyhedral geometry, with a wide range of applications such as Machine Learning, Optimization, Economics and Game Theory. Please see the [topics](/topics/) page for detailed expositions.
+My research interest lies in the intersection between Polyhedral and Convex Geometry, Tropical Geometry, their applications to Neural Network Theory and algorithmic developments. Please see the [topics](/topics/) page for an overview over my works in these topics.
