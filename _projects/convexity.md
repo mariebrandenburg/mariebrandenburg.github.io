@@ -14,5 +14,6 @@ Here are works listed in which we develop a combinatorial or geometric theory of
 
 ##### References #####
 <div class="publications">
+  {% bibliography -f preprint --query @*[abbr=BM25 || abbr=BP24] %}
   {% bibliography -f published --query @*[abbr=BLS24 || abbr=BGH25 || abbr=BDLM24 || abbr=BM24] %}
 </div>

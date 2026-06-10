@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Machine Learning
-description: The geometry of neural networks with piecewise linear activation functions.
+description: The geometry of trainable models with piecewise linear structures.
 img: /assets/img/neural-networks.webp
 importance: 4
 category: research

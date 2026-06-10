@@ -14,5 +14,6 @@ Here are all works listed in which we develop algorithms and/or demonstrate comp
 
 ##### References #####
 <div class="publications">
-  {% bibliography -f published --query @*[abbr=BJ25 || abbr=BDLM24 || abbr=BHP24 || abbr=BEZ23] %}
+  {% bibliography -f preprint --query @*[abbr=BDLLM26 || abbr=BM25] %}
+  {% bibliography -f published --query @*[abbr=BDLM24 || abbr=BHP24 || abbr=BEZ23] %}
 </div>
