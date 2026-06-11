@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Algorithms and Computations
-description: Tropical positivty, tropical polytopes, lattice polytopes and valuated matroids.
+description: Searching through spaces of large classes of polytopes
 img: /assets/img/computation.png
 importance: 3
 category: research

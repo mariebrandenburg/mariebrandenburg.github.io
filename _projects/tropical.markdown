@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Tropical Geometry
-description: Tropical positivty, tropical polytopes, lattice polytopes and valuated matroids.
+description: Tropical positivty, lattice polytopes, and valuated matroids
 img: /assets/img/tropical.png
 importance: 1
 category: research
